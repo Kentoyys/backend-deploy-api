@@ -1,0 +1,9 @@
+Question,Response,Label
+"Spell the word 'cat'.","cat",0
+"Spell the word 'elephant'.","elphant",1
+"Say this sentence: 'The big dog ran fast'.","The big dog ran fast",0
+"Say this sentence: 'The boy went to the park'.","The boy went park",1
+"Which word rhymes with 'tree': 'bee' or 'rock'?","bee",0
+"Which word rhymes with 'happy': 'sad' or 'snappy'?","snappy",0
+"Which word is longer: 'sun' or 'elephant'?","elephant",0
+"Which word is longer: 'cat' or 'hippopotamus'?","hippotamus",1

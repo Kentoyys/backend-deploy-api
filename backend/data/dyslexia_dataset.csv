@@ -1,0 +1,1001 @@
+Age,Question,Correct_Response,Incorrect_Response
+7,Say this sentence: 'The big dog ran fast.',D,Random word
+2,Which word is longer: 'sun' or 'elephant'?,Dog,Wrong answer
+4,How many syllables are in 'elephant'?,Hat,Wrong answer
+3,Which word starts with the same letter as 'banana': 'dog' or 'ball'?,Dog,Mispronounced
+7,"Say these words: 'ball, bat, bag'.",Hat,Mispronounced
+3,How many syllables are in 'elephant'?,A,Gibberish
+7,Spell the word 'cat'.,No,Mispronounced
+7,Do these letters spell a word? 'H-A-T',Cat,Gibberish
+7,Is 'flig' a real word?,Dog,Gibberish
+6,What sound do you hear at the beginning of 'zebra'?,B,Gibberish
+6,Which word rhymes with 'tree': 'bee' or 'rock'?,D,Gibberish
+3,Spell the word 'cat'.,Cat,Mispronounced
+5,Do 'cat' and 'bat' rhyme?,No,Mispronounced
+6,Spell 'dog' out loud.,D,Gibberish
+3,Which word has more syllables: 'happy' or 'hippopotamus'?,C,Mispronounced
+5,Which word starts with the same letter as 'banana': 'dog' or 'ball'?,D,Wrong answer
+5,Spell 'dog' out loud.,Yes,Mispronounced
+3,Which one is an animal: 'giraffe' or 'table'?,B,Mispronounced
+4,Say this sentence: 'I love to read books.',C,Mispronounced
+4,"Say these words: 'ball, bat, bag'.",D,Gibberish
+4,"Say these words: 'ball, bat, bag'.",Ball,Gibberish
+3,Which one is an animal: 'giraffe' or 'table'?,D,Mispronounced
+3,How many syllables are in 'elephant'?,Yes,Gibberish
+7,Say this sentence: 'I love to read books.',Cat,Wrong answer
+4,What is the first letter of 'apple'?,C,Random word
+2,What sound do you hear at the beginning of 'zebra'?,D,Mispronounced
+2,Do these letters spell a word? 'H-A-T',No,Mispronounced
+4,Do these letters spell a word? 'H-A-T',C,Random word
+4,Is 'flig' a real word?,D,Mispronounced
+4,"Say these words: 'ball, bat, bag'.",Hat,Wrong answer
+5,What is the first letter of 'apple'?,C,Wrong answer
+7,Which word rhymes with 'tree': 'bee' or 'rock'?,Cat,Gibberish
+4,Do these letters spell a word? 'H-A-T',C,Wrong answer
+6,Do these letters spell a word? 'H-A-T',No,Random word
+3,What sound do you hear at the beginning of 'zebra'?,Dog,Random word
+6,Which word starts with the same letter as 'banana': 'dog' or 'ball'?,Hat,Wrong answer
+6,Is 'flig' a real word?,B,Gibberish
+4,Is 'flig' a real word?,Ball,Wrong answer
+2,"Say these words: 'ball, bat, bag'.",Dog,Gibberish
+2,Say this sentence: 'The big dog ran fast.',Dog,Wrong answer
+2,Is 'flig' a real word?,A,Gibberish
+5,"What word comes after 'red' in this list: 'red, blue, ...'?",Hat,Gibberish
+5,What sound do you hear at the end of 'fish'?,Hat,Gibberish
+6,Which word rhymes with 'tree': 'bee' or 'rock'?,B,Mispronounced
+3,Which word is longer: 'sun' or 'elephant'?,No,Wrong answer
+3,Which word rhymes with 'tree': 'bee' or 'rock'?,Yes,Gibberish
+6,Which word starts with the same letter as 'banana': 'dog' or 'ball'?,Yes,Random word
+4,Can you say 'butterfly'?,Cat,Wrong answer
+6,What is missing from this word: '_og'?,C,Mispronounced
+5,Say this sentence: 'I love to read books.',B,Wrong answer
+6,"Say these words: 'ball, bat, bag'.",Dog,Wrong answer
+7,Which word has more syllables: 'happy' or 'hippopotamus'?,B,Mispronounced
+3,Spell the word 'cat'.,Yes,Gibberish
+7,Say this sentence: 'I love to read books.',No,Mispronounced
+6,What is the first letter of 'apple'?,Ball,Gibberish
+6,Do 'cat' and 'bat' rhyme?,No,Random word
+4,Say this sentence: 'I love to read books.',B,Wrong answer
+3,Which word is longer: 'sun' or 'elephant'?,Cat,Gibberish
+5,Which word starts with the same letter as 'banana': 'dog' or 'ball'?,Ball,Wrong answer
+4,Say this sentence: 'The big dog ran fast.',No,Mispronounced
+7,Which word has more syllables: 'happy' or 'hippopotamus'?,No,Wrong answer
+3,Do 'cat' and 'bat' rhyme?,C,Gibberish
+3,"What word comes after 'red' in this list: 'red, blue, ...'?",C,Gibberish
+7,Can you say 'butterfly'?,Cat,Mispronounced
+2,What is missing from this word: '_og'?,D,Wrong answer
+7,Spell 'dog' out loud.,Ball,Wrong answer
+2,Can you say the word 'dog'?,Cat,Wrong answer
+3,Which word rhymes with 'tree': 'bee' or 'rock'?,Ball,Gibberish
+3,Do 'cat' and 'bat' rhyme?,No,Random word
+6,"Say these words: 'ball, bat, bag'.",Ball,Wrong answer
+6,Do these letters spell a word? 'H-A-T',D,Wrong answer
+3,Spell the word 'cat'.,B,Random word
+3,Spell the word 'cat'.,D,Wrong answer
+5,Can you say the word 'dog'?,Cat,Mispronounced
+5,"Say these words: 'ball, bat, bag'.",Yes,Wrong answer
+6,Can you say the word 'dog'?,No,Gibberish
+5,What sound do you hear at the end of 'fish'?,C,Wrong answer
+3,Do these letters spell a word? 'H-A-T',Dog,Wrong answer
+2,What is missing from this word: '_og'?,No,Wrong answer
+7,What is missing from this word: '_og'?,B,Random word
+6,Say this sentence: 'I love to read books.',A,Wrong answer
+3,"What word comes after 'red' in this list: 'red, blue, ...'?",Ball,Mispronounced
+5,Which word has more syllables: 'happy' or 'hippopotamus'?,Cat,Random word
+2,Is 'flig' a real word?,B,Random word
+7,Which word has more syllables: 'happy' or 'hippopotamus'?,Ball,Wrong answer
+6,Do these letters spell a word? 'H-A-T',Yes,Random word
+3,Is 'flig' a real word?,C,Wrong answer
+6,Which word rhymes with 'tree': 'bee' or 'rock'?,Dog,Random word
+7,Spell the word 'cat'.,Dog,Gibberish
+2,Do these letters spell a word? 'H-A-T',No,Mispronounced
+4,Which word is longer: 'sun' or 'elephant'?,Hat,Random word
+7,Do 'cat' and 'bat' rhyme?,Dog,Random word
+3,"Say these words: 'ball, bat, bag'.",A,Random word
+5,Which word is longer: 'sun' or 'elephant'?,Cat,Gibberish
+7,Can you say the word 'dog'?,B,Gibberish
+4,What sound do you hear at the end of 'fish'?,A,Wrong answer
+4,Is 'flig' a real word?,Dog,Mispronounced
+5,Which word rhymes with 'tree': 'bee' or 'rock'?,Hat,Mispronounced
+5,Spell 'dog' out loud.,No,Gibberish
+6,What is missing from this word: '_og'?,Hat,Wrong answer
+5,Say this sentence: 'The big dog ran fast.',Dog,Wrong answer
+3,Which one is an animal: 'giraffe' or 'table'?,Dog,Mispronounced
+5,What sound does the letter 'B' make?,Ball,Random word
+6,Which one is an animal: 'giraffe' or 'table'?,A,Mispronounced
+4,Which word is longer: 'sun' or 'elephant'?,D,Wrong answer
+5,Do these letters spell a word? 'H-A-T',D,Random word
+4,Spell the word 'cat'.,Ball,Random word
+3,Spell the word 'cat'.,No,Random word
+4,Do 'cat' and 'bat' rhyme?,B,Mispronounced
+3,Do 'cat' and 'bat' rhyme?,C,Mispronounced
+2,Do these letters spell a word? 'H-A-T',C,Wrong answer
+6,What sound do you hear at the end of 'fish'?,No,Gibberish
+2,Which one is an animal: 'giraffe' or 'table'?,Hat,Random word
+2,"What word comes after 'red' in this list: 'red, blue, ...'?",B,Mispronounced
+2,What sound do you hear at the beginning of 'zebra'?,Yes,Random word
+3,What is the first letter of 'apple'?,Yes,Random word
+5,Which one is an animal: 'giraffe' or 'table'?,Hat,Gibberish
+6,What sound do you hear at the beginning of 'zebra'?,Dog,Wrong answer
+3,Which word starts with the same letter as 'banana': 'dog' or 'ball'?,No,Mispronounced
+5,What sound do you hear at the beginning of 'zebra'?,No,Wrong answer
+5,"Say these words: 'ball, bat, bag'.",A,Wrong answer
+7,Is 'flig' a real word?,Yes,Mispronounced
+4,What sound do you hear at the beginning of 'zebra'?,Yes,Wrong answer
+2,What sound do you hear at the end of 'fish'?,Cat,Wrong answer
+7,What sound does the letter 'B' make?,D,Wrong answer
+2,What sound does the letter 'B' make?,Yes,Wrong answer
+6,Do these letters spell a word? 'H-A-T',Ball,Wrong answer
+3,Spell the word 'cat'.,D,Gibberish
+2,What sound do you hear at the beginning of 'zebra'?,C,Mispronounced
+2,What is the first letter of 'apple'?,A,Wrong answer
+7,What is missing from this word: '_og'?,C,Random word
+5,Which word is longer: 'sun' or 'elephant'?,No,Mispronounced
+5,What is the first letter of 'apple'?,Ball,Gibberish
+5,Can you say 'butterfly'?,Cat,Random word
+6,Which word is longer: 'sun' or 'elephant'?,Ball,Random word
+7,What sound do you hear at the beginning of 'zebra'?,No,Gibberish
+2,Do 'cat' and 'bat' rhyme?,Hat,Mispronounced
+7,"What word comes after 'red' in this list: 'red, blue, ...'?",A,Wrong answer
+6,Say this sentence: 'I love to read books.',D,Mispronounced
+5,Which word is longer: 'sun' or 'elephant'?,B,Mispronounced
+2,Is 'flig' a real word?,Dog,Gibberish
+7,What is the first letter of 'apple'?,D,Mispronounced
+6,Can you say the word 'dog'?,D,Mispronounced
+5,Say this sentence: 'I love to read books.',Hat,Gibberish
+2,Say this sentence: 'The big dog ran fast.',Yes,Random word
+7,Is 'flig' a real word?,D,Random word
+7,What sound do you hear at the beginning of 'zebra'?,B,Gibberish
+7,Say this sentence: 'The big dog ran fast.',C,Wrong answer
+2,Say this sentence: 'The big dog ran fast.',Dog,Gibberish
+3,Is 'flig' a real word?,C,Wrong answer
+3,Say this sentence: 'I love to read books.',Yes,Wrong answer
+2,Is 'flig' a real word?,Hat,Gibberish
+4,What sound do you hear at the beginning of 'zebra'?,Cat,Wrong answer
+6,Is 'flig' a real word?,C,Mispronounced
+7,Which one is an animal: 'giraffe' or 'table'?,D,Mispronounced
+7,Which word is longer: 'sun' or 'elephant'?,Ball,Mispronounced
+6,Say this sentence: 'The big dog ran fast.',Dog,Mispronounced
+6,Spell 'dog' out loud.,A,Gibberish
+5,Do these letters spell a word? 'H-A-T',Hat,Mispronounced
+5,Which one is an animal: 'giraffe' or 'table'?,Dog,Wrong answer
+2,How many syllables are in 'elephant'?,Hat,Wrong answer
+5,Say this sentence: 'I love to read books.',No,Gibberish
+3,Which word is longer: 'sun' or 'elephant'?,Ball,Wrong answer
+5,Spell 'dog' out loud.,B,Random word
+6,What is the first letter of 'apple'?,Yes,Wrong answer
+4,What sound does the letter 'B' make?,Yes,Random word
+7,Spell the word 'cat'.,No,Mispronounced
+6,"What word comes after 'red' in this list: 'red, blue, ...'?",No,Mispronounced
+4,Which one is an animal: 'giraffe' or 'table'?,Ball,Wrong answer
+6,Do these letters spell a word? 'H-A-T',Ball,Wrong answer
+2,What is missing from this word: '_og'?,A,Gibberish
+2,What sound do you hear at the end of 'fish'?,Hat,Wrong answer
+5,What sound does the letter 'B' make?,No,Random word
+7,"What word comes after 'red' in this list: 'red, blue, ...'?",C,Gibberish
+3,Which word starts with the same letter as 'banana': 'dog' or 'ball'?,Hat,Mispronounced
+7,Spell 'dog' out loud.,A,Wrong answer
+2,What sound do you hear at the end of 'fish'?,Yes,Mispronounced
+7,Can you say the word 'dog'?,Yes,Wrong answer
+4,"What word comes after 'red' in this list: 'red, blue, ...'?",Cat,Mispronounced
+6,How many syllables are in 'elephant'?,B,Random word
+2,What is the first letter of 'apple'?,No,Mispronounced
+6,Say this sentence: 'I love to read books.',Dog,Random word
+4,Do these letters spell a word? 'H-A-T',A,Wrong answer
+6,"Say these words: 'ball, bat, bag'.",Dog,Mispronounced
+5,Is 'flig' a real word?,No,Wrong answer
+4,Which word starts with the same letter as 'banana': 'dog' or 'ball'?,Ball,Gibberish
+7,Do 'cat' and 'bat' rhyme?,D,Mispronounced
+3,Do these letters spell a word? 'H-A-T',No,Gibberish
+5,Say this sentence: 'I love to read books.',D,Wrong answer
+2,Spell the word 'cat'.,No,Mispronounced
+2,What is the first letter of 'apple'?,Dog,Random word
+3,Which one is an animal: 'giraffe' or 'table'?,D,Random word
+5,Which word is longer: 'sun' or 'elephant'?,D,Wrong answer
+2,Say this sentence: 'The big dog ran fast.',Hat,Gibberish
+3,Can you say 'butterfly'?,Hat,Wrong answer
+2,Spell 'dog' out loud.,No,Wrong answer
+3,Say this sentence: 'I love to read books.',A,Mispronounced
+4,Which word rhymes with 'tree': 'bee' or 'rock'?,B,Wrong answer
+5,Can you say the word 'dog'?,Yes,Gibberish
+6,What sound does the letter 'B' make?,Cat,Gibberish
+4,Which word has more syllables: 'happy' or 'hippopotamus'?,Yes,Wrong answer
+5,Do 'cat' and 'bat' rhyme?,B,Random word
+5,Do these letters spell a word? 'H-A-T',Dog,Random word
+2,"Say these words: 'ball, bat, bag'.",No,Random word
+6,Do 'cat' and 'bat' rhyme?,D,Random word
+5,Can you say 'butterfly'?,Cat,Random word
+5,Which word rhymes with 'tree': 'bee' or 'rock'?,Cat,Wrong answer
+4,Do these letters spell a word? 'H-A-T',C,Wrong answer
+4,Which word starts with the same letter as 'banana': 'dog' or 'ball'?,Dog,Wrong answer
+7,What sound do you hear at the beginning of 'zebra'?,Cat,Gibberish
+6,Which word is longer: 'sun' or 'elephant'?,B,Gibberish
+3,Which word rhymes with 'tree': 'bee' or 'rock'?,Cat,Wrong answer
+2,"What word comes after 'red' in this list: 'red, blue, ...'?",B,Wrong answer
+5,"What word comes after 'red' in this list: 'red, blue, ...'?",Dog,Wrong answer
+2,What is the first letter of 'apple'?,Ball,Random word
+7,What sound does the letter 'B' make?,B,Random word
+2,Spell the word 'cat'.,D,Random word
+5,What sound does the letter 'B' make?,C,Wrong answer
+6,What is missing from this word: '_og'?,Yes,Wrong answer
+6,What sound do you hear at the end of 'fish'?,B,Gibberish
+5,Which word starts with the same letter as 'banana': 'dog' or 'ball'?,Dog,Mispronounced
+6,Which word is longer: 'sun' or 'elephant'?,C,Mispronounced
+6,"Say these words: 'ball, bat, bag'.",Cat,Random word
+5,Which one is an animal: 'giraffe' or 'table'?,Yes,Mispronounced
+7,"What word comes after 'red' in this list: 'red, blue, ...'?",Ball,Gibberish
+2,Which word starts with the same letter as 'banana': 'dog' or 'ball'?,B,Wrong answer
+4,Spell the word 'cat'.,Cat,Mispronounced
+5,Which word is longer: 'sun' or 'elephant'?,A,Mispronounced
+4,Which word starts with the same letter as 'banana': 'dog' or 'ball'?,C,Wrong answer
+6,Which one is an animal: 'giraffe' or 'table'?,Hat,Gibberish
+7,Is 'flig' a real word?,No,Wrong answer
+7,What sound do you hear at the beginning of 'zebra'?,D,Random word
+5,Can you say 'butterfly'?,D,Mispronounced
+5,Spell the word 'cat'.,D,Mispronounced
+3,How many syllables are in 'elephant'?,D,Gibberish
+3,Spell 'dog' out loud.,D,Wrong answer
+2,Which word rhymes with 'tree': 'bee' or 'rock'?,B,Mispronounced
+6,Can you say 'butterfly'?,A,Wrong answer
+3,What sound do you hear at the end of 'fish'?,Cat,Random word
+5,What is the first letter of 'apple'?,Cat,Mispronounced
+2,Can you say the word 'dog'?,Cat,Mispronounced
+2,Can you say 'butterfly'?,B,Wrong answer
+4,What sound do you hear at the beginning of 'zebra'?,C,Mispronounced
+2,"Say these words: 'ball, bat, bag'.",A,Gibberish
+7,Which one is an animal: 'giraffe' or 'table'?,B,Random word
+4,Is 'flig' a real word?,No,Wrong answer
+5,Can you say the word 'dog'?,Cat,Mispronounced
+3,Do 'cat' and 'bat' rhyme?,No,Random word
+2,Which word has more syllables: 'happy' or 'hippopotamus'?,B,Gibberish
+4,What is the first letter of 'apple'?,A,Wrong answer
+7,What sound do you hear at the end of 'fish'?,A,Random word
+5,What sound do you hear at the beginning of 'zebra'?,Dog,Wrong answer
+4,Spell the word 'cat'.,No,Mispronounced
+7,"What word comes after 'red' in this list: 'red, blue, ...'?",A,Wrong answer
+2,Which word starts with the same letter as 'banana': 'dog' or 'ball'?,A,Mispronounced
+5,Do these letters spell a word? 'H-A-T',B,Mispronounced
+5,Do these letters spell a word? 'H-A-T',C,Gibberish
+3,What sound does the letter 'B' make?,D,Mispronounced
+3,Can you say 'butterfly'?,Cat,Mispronounced
+2,Do 'cat' and 'bat' rhyme?,Ball,Random word
+7,What sound do you hear at the beginning of 'zebra'?,C,Wrong answer
+4,Which word rhymes with 'tree': 'bee' or 'rock'?,Ball,Wrong answer
+4,Do these letters spell a word? 'H-A-T',No,Mispronounced
+7,"Say these words: 'ball, bat, bag'.",A,Random word
+5,Spell 'dog' out loud.,Ball,Gibberish
+7,Is 'flig' a real word?,Dog,Mispronounced
+6,"What word comes after 'red' in this list: 'red, blue, ...'?",A,Mispronounced
+7,Say this sentence: 'I love to read books.',Cat,Wrong answer
+3,"Say these words: 'ball, bat, bag'.",Cat,Wrong answer
+4,Which word has more syllables: 'happy' or 'hippopotamus'?,Hat,Gibberish
+6,Spell 'dog' out loud.,Cat,Wrong answer
+6,What sound do you hear at the end of 'fish'?,Ball,Wrong answer
+3,Which word has more syllables: 'happy' or 'hippopotamus'?,C,Mispronounced
+5,Spell 'dog' out loud.,Cat,Random word
+4,What sound does the letter 'B' make?,Cat,Wrong answer
+7,Which word has more syllables: 'happy' or 'hippopotamus'?,Ball,Mispronounced
+6,Which word has more syllables: 'happy' or 'hippopotamus'?,B,Random word
+6,Which word is longer: 'sun' or 'elephant'?,Yes,Wrong answer
+4,Can you say 'butterfly'?,Ball,Gibberish
+4,Say this sentence: 'I love to read books.',Dog,Wrong answer
+7,What is the first letter of 'apple'?,C,Mispronounced
+5,"Say these words: 'ball, bat, bag'.",Dog,Random word
+6,Can you say 'butterfly'?,A,Wrong answer
+2,Say this sentence: 'I love to read books.',Dog,Random word
+6,Which word starts with the same letter as 'banana': 'dog' or 'ball'?,Ball,Mispronounced
+6,Can you say the word 'dog'?,Ball,Gibberish
+2,What sound do you hear at the end of 'fish'?,Yes,Random word
+3,What is missing from this word: '_og'?,Dog,Wrong answer
+3,Say this sentence: 'I love to read books.',Hat,Mispronounced
+4,Which word is longer: 'sun' or 'elephant'?,Dog,Mispronounced
+6,Say this sentence: 'The big dog ran fast.',B,Gibberish
+2,Which word has more syllables: 'happy' or 'hippopotamus'?,D,Random word
+5,Which word rhymes with 'tree': 'bee' or 'rock'?,Dog,Mispronounced
+7,What sound do you hear at the beginning of 'zebra'?,Cat,Gibberish
+7,What sound do you hear at the end of 'fish'?,Cat,Gibberish
+2,"What word comes after 'red' in this list: 'red, blue, ...'?",Cat,Gibberish
+7,Say this sentence: 'The big dog ran fast.',Yes,Random word
+2,How many syllables are in 'elephant'?,No,Mispronounced
+6,Spell the word 'cat'.,Ball,Wrong answer
+3,Can you say 'butterfly'?,C,Gibberish
+2,Which word rhymes with 'tree': 'bee' or 'rock'?,Cat,Random word
+4,What sound does the letter 'B' make?,C,Mispronounced
+7,Say this sentence: 'I love to read books.',Yes,Mispronounced
+2,Which word starts with the same letter as 'banana': 'dog' or 'ball'?,Ball,Mispronounced
+3,What is missing from this word: '_og'?,C,Mispronounced
+5,Spell 'dog' out loud.,A,Mispronounced
+4,How many syllables are in 'elephant'?,B,Gibberish
+4,"Say these words: 'ball, bat, bag'.",Hat,Wrong answer
+4,"Say these words: 'ball, bat, bag'.",Cat,Gibberish
+3,Which word is longer: 'sun' or 'elephant'?,Cat,Wrong answer
+3,Which word has more syllables: 'happy' or 'hippopotamus'?,Dog,Random word
+7,Do these letters spell a word? 'H-A-T',C,Mispronounced
+6,Say this sentence: 'The big dog ran fast.',No,Mispronounced
+7,"Say these words: 'ball, bat, bag'.",C,Gibberish
+5,Which word starts with the same letter as 'banana': 'dog' or 'ball'?,Ball,Wrong answer
+2,Say this sentence: 'I love to read books.',Yes,Random word
+3,What sound do you hear at the beginning of 'zebra'?,Hat,Wrong answer
+5,What sound do you hear at the beginning of 'zebra'?,Cat,Wrong answer
+3,What sound does the letter 'B' make?,Hat,Gibberish
+7,What sound does the letter 'B' make?,A,Mispronounced
+4,What is the first letter of 'apple'?,A,Gibberish
+5,Which word rhymes with 'tree': 'bee' or 'rock'?,C,Gibberish
+5,"What word comes after 'red' in this list: 'red, blue, ...'?",Cat,Mispronounced
+5,What is the first letter of 'apple'?,C,Gibberish
+6,Can you say 'butterfly'?,C,Wrong answer
+4,Can you say 'butterfly'?,Ball,Mispronounced
+3,Can you say the word 'dog'?,D,Gibberish
+2,Do 'cat' and 'bat' rhyme?,Ball,Random word
+5,Can you say the word 'dog'?,Dog,Random word
+3,What sound do you hear at the beginning of 'zebra'?,No,Wrong answer
+2,Which word is longer: 'sun' or 'elephant'?,D,Random word
+5,Which word rhymes with 'tree': 'bee' or 'rock'?,D,Mispronounced
+6,"Say these words: 'ball, bat, bag'.",Ball,Random word
+3,Spell the word 'cat'.,Dog,Wrong answer
+7,What sound does the letter 'B' make?,Cat,Gibberish
+3,Do 'cat' and 'bat' rhyme?,Dog,Wrong answer
+6,Is 'flig' a real word?,D,Random word
+2,Say this sentence: 'The big dog ran fast.',Hat,Gibberish
+5,Which one is an animal: 'giraffe' or 'table'?,Cat,Random word
+4,Which word is longer: 'sun' or 'elephant'?,C,Mispronounced
+4,"What word comes after 'red' in this list: 'red, blue, ...'?",B,Random word
+4,"Say these words: 'ball, bat, bag'.",No,Mispronounced
+5,What sound do you hear at the end of 'fish'?,Yes,Gibberish
+6,Is 'flig' a real word?,C,Mispronounced
+3,Which word has more syllables: 'happy' or 'hippopotamus'?,Ball,Random word
+3,Do 'cat' and 'bat' rhyme?,Ball,Wrong answer
+2,Can you say the word 'dog'?,No,Random word
+3,What is the first letter of 'apple'?,D,Mispronounced
+5,How many syllables are in 'elephant'?,Cat,Wrong answer
+4,Say this sentence: 'The big dog ran fast.',Dog,Gibberish
+3,What sound do you hear at the end of 'fish'?,D,Wrong answer
+3,What sound do you hear at the end of 'fish'?,Yes,Mispronounced
+3,What sound do you hear at the beginning of 'zebra'?,B,Mispronounced
+6,"What word comes after 'red' in this list: 'red, blue, ...'?",No,Mispronounced
+4,Which word starts with the same letter as 'banana': 'dog' or 'ball'?,A,Mispronounced
+6,Which word is longer: 'sun' or 'elephant'?,D,Random word
+4,Say this sentence: 'I love to read books.',C,Wrong answer
+5,Which word starts with the same letter as 'banana': 'dog' or 'ball'?,Dog,Random word
+5,Do these letters spell a word? 'H-A-T',No,Wrong answer
+5,Do these letters spell a word? 'H-A-T',No,Gibberish
+7,What sound does the letter 'B' make?,A,Mispronounced
+2,Is 'flig' a real word?,Cat,Mispronounced
+7,Can you say the word 'dog'?,C,Random word
+3,What sound do you hear at the beginning of 'zebra'?,C,Wrong answer
+5,What sound do you hear at the end of 'fish'?,C,Mispronounced
+7,What sound does the letter 'B' make?,Dog,Wrong answer
+3,"What word comes after 'red' in this list: 'red, blue, ...'?",A,Random word
+6,How many syllables are in 'elephant'?,Dog,Wrong answer
+5,How many syllables are in 'elephant'?,B,Mispronounced
+6,Spell 'dog' out loud.,Dog,Mispronounced
+3,Can you say the word 'dog'?,C,Mispronounced
+7,Can you say the word 'dog'?,Dog,Gibberish
+7,Which word rhymes with 'tree': 'bee' or 'rock'?,Hat,Mispronounced
+5,What sound do you hear at the beginning of 'zebra'?,D,Mispronounced
+6,What sound do you hear at the end of 'fish'?,No,Mispronounced
+2,Spell the word 'cat'.,A,Mispronounced
+4,What sound does the letter 'B' make?,C,Gibberish
+6,Which word starts with the same letter as 'banana': 'dog' or 'ball'?,A,Random word
+2,Spell 'dog' out loud.,A,Mispronounced
+4,Can you say the word 'dog'?,B,Gibberish
+7,Say this sentence: 'I love to read books.',No,Gibberish
+3,Which word is longer: 'sun' or 'elephant'?,A,Wrong answer
+6,"Say these words: 'ball, bat, bag'.",No,Wrong answer
+3,Do these letters spell a word? 'H-A-T',No,Wrong answer
+4,Do these letters spell a word? 'H-A-T',B,Wrong answer
+4,Can you say the word 'dog'?,Dog,Gibberish
+3,What sound does the letter 'B' make?,Yes,Random word
+5,Can you say 'butterfly'?,Ball,Gibberish
+7,Which one is an animal: 'giraffe' or 'table'?,A,Random word
+2,Which word starts with the same letter as 'banana': 'dog' or 'ball'?,Hat,Gibberish
+3,Spell 'dog' out loud.,No,Random word
+5,Can you say the word 'dog'?,Dog,Wrong answer
+6,Which word starts with the same letter as 'banana': 'dog' or 'ball'?,B,Gibberish
+7,"Say these words: 'ball, bat, bag'.",Ball,Gibberish
+2,Do these letters spell a word? 'H-A-T',A,Random word
+2,Do these letters spell a word? 'H-A-T',Dog,Wrong answer
+4,Can you say 'butterfly'?,D,Mispronounced
+4,Do 'cat' and 'bat' rhyme?,Hat,Gibberish
+3,Say this sentence: 'I love to read books.',Dog,Wrong answer
+6,Do 'cat' and 'bat' rhyme?,Cat,Mispronounced
+4,Which word rhymes with 'tree': 'bee' or 'rock'?,Hat,Wrong answer
+4,Which one is an animal: 'giraffe' or 'table'?,Dog,Random word
+4,Say this sentence: 'The big dog ran fast.',B,Wrong answer
+4,Which one is an animal: 'giraffe' or 'table'?,No,Mispronounced
+2,How many syllables are in 'elephant'?,C,Gibberish
+2,Do 'cat' and 'bat' rhyme?,Dog,Gibberish
+7,Which word rhymes with 'tree': 'bee' or 'rock'?,Cat,Wrong answer
+5,What sound do you hear at the end of 'fish'?,B,Gibberish
+5,"Say these words: 'ball, bat, bag'.",No,Gibberish
+2,Spell the word 'cat'.,Hat,Gibberish
+7,Which word has more syllables: 'happy' or 'hippopotamus'?,Cat,Wrong answer
+2,Say this sentence: 'The big dog ran fast.',B,Gibberish
+5,Which word rhymes with 'tree': 'bee' or 'rock'?,No,Wrong answer
+6,Spell 'dog' out loud.,Yes,Gibberish
+7,How many syllables are in 'elephant'?,Cat,Gibberish
+5,Which word rhymes with 'tree': 'bee' or 'rock'?,B,Wrong answer
+3,Say this sentence: 'I love to read books.',No,Wrong answer
+3,Which word has more syllables: 'happy' or 'hippopotamus'?,C,Mispronounced
+4,What sound does the letter 'B' make?,Yes,Wrong answer
+4,Is 'flig' a real word?,B,Mispronounced
+3,How many syllables are in 'elephant'?,Yes,Wrong answer
+4,Which word is longer: 'sun' or 'elephant'?,D,Wrong answer
+7,Spell 'dog' out loud.,Hat,Wrong answer
+4,Do these letters spell a word? 'H-A-T',C,Mispronounced
+3,"What word comes after 'red' in this list: 'red, blue, ...'?",A,Mispronounced
+5,Do these letters spell a word? 'H-A-T',B,Wrong answer
+5,Say this sentence: 'The big dog ran fast.',No,Mispronounced
+7,Which word is longer: 'sun' or 'elephant'?,D,Gibberish
+3,Which word is longer: 'sun' or 'elephant'?,A,Mispronounced
+6,Do 'cat' and 'bat' rhyme?,Hat,Wrong answer
+6,Is 'flig' a real word?,No,Mispronounced
+5,"Say these words: 'ball, bat, bag'.",A,Random word
+6,Which word is longer: 'sun' or 'elephant'?,C,Random word
+6,Do these letters spell a word? 'H-A-T',Yes,Wrong answer
+7,Can you say 'butterfly'?,A,Random word
+4,What is the first letter of 'apple'?,D,Random word
+4,What sound does the letter 'B' make?,B,Random word
+3,Can you say 'butterfly'?,Dog,Wrong answer
+6,What is the first letter of 'apple'?,Hat,Mispronounced
+7,Can you say 'butterfly'?,Cat,Mispronounced
+6,"What word comes after 'red' in this list: 'red, blue, ...'?",A,Gibberish
+7,Spell the word 'cat'.,D,Gibberish
+6,"Say these words: 'ball, bat, bag'.",C,Gibberish
+5,What is missing from this word: '_og'?,B,Random word
+5,Do these letters spell a word? 'H-A-T',C,Wrong answer
+5,Say this sentence: 'The big dog ran fast.',No,Random word
+4,"Say these words: 'ball, bat, bag'.",A,Gibberish
+7,Spell 'dog' out loud.,Cat,Mispronounced
+3,Spell the word 'cat'.,C,Wrong answer
+4,How many syllables are in 'elephant'?,D,Gibberish
+4,Can you say the word 'dog'?,B,Gibberish
+5,Can you say 'butterfly'?,Hat,Mispronounced
+5,Which word has more syllables: 'happy' or 'hippopotamus'?,No,Wrong answer
+2,"Say these words: 'ball, bat, bag'.",B,Mispronounced
+5,Can you say the word 'dog'?,Cat,Wrong answer
+7,Spell the word 'cat'.,Cat,Random word
+7,Which word is longer: 'sun' or 'elephant'?,Ball,Mispronounced
+5,"Say these words: 'ball, bat, bag'.",B,Wrong answer
+5,Which word starts with the same letter as 'banana': 'dog' or 'ball'?,B,Gibberish
+6,Do these letters spell a word? 'H-A-T',Ball,Mispronounced
+6,What sound do you hear at the beginning of 'zebra'?,B,Wrong answer
+3,Can you say 'butterfly'?,B,Mispronounced
+6,Is 'flig' a real word?,Ball,Mispronounced
+6,Which word has more syllables: 'happy' or 'hippopotamus'?,C,Gibberish
+2,"What word comes after 'red' in this list: 'red, blue, ...'?",Cat,Mispronounced
+3,What sound does the letter 'B' make?,Dog,Gibberish
+6,Which word starts with the same letter as 'banana': 'dog' or 'ball'?,Hat,Mispronounced
+2,Is 'flig' a real word?,Cat,Mispronounced
+6,Say this sentence: 'The big dog ran fast.',A,Mispronounced
+7,"What word comes after 'red' in this list: 'red, blue, ...'?",Ball,Gibberish
+4,What sound does the letter 'B' make?,Cat,Wrong answer
+5,Say this sentence: 'I love to read books.',A,Wrong answer
+7,How many syllables are in 'elephant'?,Yes,Random word
+4,Which word has more syllables: 'happy' or 'hippopotamus'?,D,Wrong answer
+6,What sound does the letter 'B' make?,Hat,Mispronounced
+7,Can you say the word 'dog'?,Hat,Gibberish
+6,Which word has more syllables: 'happy' or 'hippopotamus'?,Ball,Mispronounced
+6,Say this sentence: 'The big dog ran fast.',B,Mispronounced
+5,Can you say the word 'dog'?,No,Random word
+5,Do 'cat' and 'bat' rhyme?,Yes,Mispronounced
+6,"Say these words: 'ball, bat, bag'.",Hat,Gibberish
+6,Which one is an animal: 'giraffe' or 'table'?,D,Random word
+2,Say this sentence: 'The big dog ran fast.',C,Mispronounced
+3,Do 'cat' and 'bat' rhyme?,Dog,Wrong answer
+3,Spell the word 'cat'.,Ball,Random word
+4,Which word is longer: 'sun' or 'elephant'?,Hat,Random word
+7,"What word comes after 'red' in this list: 'red, blue, ...'?",D,Gibberish
+5,Which word rhymes with 'tree': 'bee' or 'rock'?,Yes,Gibberish
+3,Can you say 'butterfly'?,Ball,Gibberish
+3,Spell 'dog' out loud.,A,Mispronounced
+2,"What word comes after 'red' in this list: 'red, blue, ...'?",Hat,Wrong answer
+7,Can you say 'butterfly'?,No,Gibberish
+4,How many syllables are in 'elephant'?,Yes,Wrong answer
+4,"What word comes after 'red' in this list: 'red, blue, ...'?",Hat,Random word
+2,Which word is longer: 'sun' or 'elephant'?,C,Wrong answer
+7,Which word starts with the same letter as 'banana': 'dog' or 'ball'?,D,Gibberish
+3,Which word has more syllables: 'happy' or 'hippopotamus'?,Yes,Wrong answer
+3,Which word has more syllables: 'happy' or 'hippopotamus'?,Ball,Wrong answer
+7,"Say these words: 'ball, bat, bag'.",Cat,Gibberish
+7,Which word is longer: 'sun' or 'elephant'?,Ball,Gibberish
+3,What sound do you hear at the end of 'fish'?,D,Wrong answer
+4,Can you say 'butterfly'?,B,Mispronounced
+7,Can you say the word 'dog'?,D,Mispronounced
+4,Can you say the word 'dog'?,Dog,Mispronounced
+7,Which word has more syllables: 'happy' or 'hippopotamus'?,C,Gibberish
+4,Say this sentence: 'I love to read books.',No,Random word
+7,Spell 'dog' out loud.,D,Wrong answer
+6,Which word starts with the same letter as 'banana': 'dog' or 'ball'?,Ball,Gibberish
+5,Spell 'dog' out loud.,No,Random word
+4,Which one is an animal: 'giraffe' or 'table'?,Dog,Gibberish
+7,"What word comes after 'red' in this list: 'red, blue, ...'?",Yes,Random word
+4,Which one is an animal: 'giraffe' or 'table'?,B,Random word
+6,Spell the word 'cat'.,Cat,Mispronounced
+7,What is missing from this word: '_og'?,D,Mispronounced
+6,Say this sentence: 'I love to read books.',Hat,Mispronounced
+4,What is missing from this word: '_og'?,Ball,Random word
+7,Can you say the word 'dog'?,Dog,Gibberish
+2,How many syllables are in 'elephant'?,Ball,Wrong answer
+2,What is missing from this word: '_og'?,B,Mispronounced
+7,What sound do you hear at the beginning of 'zebra'?,B,Mispronounced
+3,Can you say 'butterfly'?,Hat,Wrong answer
+5,Which word is longer: 'sun' or 'elephant'?,Hat,Gibberish
+3,What sound do you hear at the beginning of 'zebra'?,Dog,Gibberish
+5,How many syllables are in 'elephant'?,Cat,Wrong answer
+7,What sound does the letter 'B' make?,Yes,Mispronounced
+7,"Say these words: 'ball, bat, bag'.",Yes,Mispronounced
+4,What sound does the letter 'B' make?,C,Wrong answer
+5,"What word comes after 'red' in this list: 'red, blue, ...'?",D,Gibberish
+2,What is the first letter of 'apple'?,Dog,Random word
+6,Which word starts with the same letter as 'banana': 'dog' or 'ball'?,Ball,Mispronounced
+2,What is the first letter of 'apple'?,A,Mispronounced
+2,Say this sentence: 'The big dog ran fast.',A,Random word
+2,Do these letters spell a word? 'H-A-T',Hat,Mispronounced
+7,Can you say 'butterfly'?,D,Random word
+6,Is 'flig' a real word?,Yes,Random word
+3,Which word starts with the same letter as 'banana': 'dog' or 'ball'?,A,Gibberish
+3,Do these letters spell a word? 'H-A-T',D,Random word
+3,What is missing from this word: '_og'?,C,Random word
+5,Which word is longer: 'sun' or 'elephant'?,Ball,Wrong answer
+4,Which word rhymes with 'tree': 'bee' or 'rock'?,Hat,Mispronounced
+6,Spell the word 'cat'.,Dog,Wrong answer
+2,Which one is an animal: 'giraffe' or 'table'?,C,Mispronounced
+4,What is missing from this word: '_og'?,Hat,Mispronounced
+3,What is missing from this word: '_og'?,C,Mispronounced
+4,What is missing from this word: '_og'?,Hat,Gibberish
+7,Spell 'dog' out loud.,C,Gibberish
+3,Do 'cat' and 'bat' rhyme?,Cat,Mispronounced
+4,What sound do you hear at the beginning of 'zebra'?,D,Random word
+4,Spell the word 'cat'.,Dog,Gibberish
+2,What is missing from this word: '_og'?,A,Gibberish
+4,What sound do you hear at the beginning of 'zebra'?,B,Mispronounced
+5,Is 'flig' a real word?,Hat,Mispronounced
+2,How many syllables are in 'elephant'?,B,Gibberish
+4,Say this sentence: 'The big dog ran fast.',No,Mispronounced
+2,"Say these words: 'ball, bat, bag'.",No,Wrong answer
+6,"What word comes after 'red' in this list: 'red, blue, ...'?",No,Random word
+4,Do these letters spell a word? 'H-A-T',Yes,Wrong answer
+4,Can you say 'butterfly'?,Hat,Wrong answer
+4,Spell the word 'cat'.,Cat,Wrong answer
+4,"What word comes after 'red' in this list: 'red, blue, ...'?",Dog,Wrong answer
+2,What is missing from this word: '_og'?,Cat,Gibberish
+5,Which word starts with the same letter as 'banana': 'dog' or 'ball'?,Yes,Random word
+2,Do these letters spell a word? 'H-A-T',Hat,Mispronounced
+6,Can you say the word 'dog'?,Cat,Wrong answer
+4,Can you say the word 'dog'?,Ball,Random word
+4,Which word rhymes with 'tree': 'bee' or 'rock'?,B,Random word
+7,Do 'cat' and 'bat' rhyme?,Cat,Wrong answer
+3,"Say these words: 'ball, bat, bag'.",No,Gibberish
+4,Spell the word 'cat'.,Yes,Mispronounced
+5,Say this sentence: 'The big dog ran fast.',A,Random word
+5,Do these letters spell a word? 'H-A-T',D,Gibberish
+3,Can you say 'butterfly'?,Yes,Random word
+6,What is the first letter of 'apple'?,A,Random word
+5,Which word starts with the same letter as 'banana': 'dog' or 'ball'?,B,Random word
+2,Which one is an animal: 'giraffe' or 'table'?,D,Wrong answer
+5,Can you say 'butterfly'?,C,Wrong answer
+6,Can you say 'butterfly'?,D,Mispronounced
+5,Which word rhymes with 'tree': 'bee' or 'rock'?,No,Gibberish
+2,Say this sentence: 'I love to read books.',No,Gibberish
+3,How many syllables are in 'elephant'?,Dog,Wrong answer
+5,"What word comes after 'red' in this list: 'red, blue, ...'?",Dog,Gibberish
+4,"Say these words: 'ball, bat, bag'.",D,Gibberish
+5,Which word rhymes with 'tree': 'bee' or 'rock'?,D,Wrong answer
+6,Spell 'dog' out loud.,No,Random word
+4,Say this sentence: 'The big dog ran fast.',A,Mispronounced
+5,Which word has more syllables: 'happy' or 'hippopotamus'?,Cat,Mispronounced
+7,What sound do you hear at the end of 'fish'?,B,Random word
+5,"What word comes after 'red' in this list: 'red, blue, ...'?",Hat,Random word
+5,Which word rhymes with 'tree': 'bee' or 'rock'?,Hat,Wrong answer
+4,What sound do you hear at the end of 'fish'?,No,Gibberish
+7,"What word comes after 'red' in this list: 'red, blue, ...'?",No,Wrong answer
+2,What sound do you hear at the beginning of 'zebra'?,No,Gibberish
+4,Spell the word 'cat'.,D,Random word
+4,Which word rhymes with 'tree': 'bee' or 'rock'?,Hat,Wrong answer
+7,Do these letters spell a word? 'H-A-T',D,Random word
+2,"Say these words: 'ball, bat, bag'.",Dog,Mispronounced
+4,What sound do you hear at the end of 'fish'?,B,Gibberish
+7,Which word starts with the same letter as 'banana': 'dog' or 'ball'?,Hat,Wrong answer
+7,Which one is an animal: 'giraffe' or 'table'?,No,Gibberish
+2,"Say these words: 'ball, bat, bag'.",A,Random word
+7,What sound do you hear at the beginning of 'zebra'?,B,Mispronounced
+5,Do these letters spell a word? 'H-A-T',No,Gibberish
+5,Can you say 'butterfly'?,Hat,Gibberish
+3,What sound do you hear at the end of 'fish'?,Cat,Mispronounced
+6,What is missing from this word: '_og'?,C,Wrong answer
+5,Do these letters spell a word? 'H-A-T',Dog,Random word
+2,Spell 'dog' out loud.,A,Mispronounced
+5,Which word has more syllables: 'happy' or 'hippopotamus'?,Dog,Gibberish
+5,Spell 'dog' out loud.,A,Random word
+3,"What word comes after 'red' in this list: 'red, blue, ...'?",D,Gibberish
+3,What is missing from this word: '_og'?,Dog,Gibberish
+2,What is missing from this word: '_og'?,C,Mispronounced
+3,Do these letters spell a word? 'H-A-T',B,Mispronounced
+3,What sound do you hear at the end of 'fish'?,Dog,Random word
+2,Do these letters spell a word? 'H-A-T',D,Random word
+7,Which word rhymes with 'tree': 'bee' or 'rock'?,B,Random word
+4,Which word starts with the same letter as 'banana': 'dog' or 'ball'?,Hat,Mispronounced
+2,What is the first letter of 'apple'?,Dog,Wrong answer
+7,Which word is longer: 'sun' or 'elephant'?,Yes,Gibberish
+2,Which word rhymes with 'tree': 'bee' or 'rock'?,Cat,Wrong answer
+2,Do these letters spell a word? 'H-A-T',No,Gibberish
+4,What sound do you hear at the beginning of 'zebra'?,C,Mispronounced
+5,Which word starts with the same letter as 'banana': 'dog' or 'ball'?,Cat,Gibberish
+7,"What word comes after 'red' in this list: 'red, blue, ...'?",Ball,Mispronounced
+6,Say this sentence: 'I love to read books.',A,Mispronounced
+2,Which word has more syllables: 'happy' or 'hippopotamus'?,C,Random word
+2,Which word starts with the same letter as 'banana': 'dog' or 'ball'?,No,Random word
+3,Can you say the word 'dog'?,B,Gibberish
+2,Is 'flig' a real word?,No,Mispronounced
+6,How many syllables are in 'elephant'?,Ball,Random word
+3,What sound does the letter 'B' make?,Yes,Mispronounced
+3,What sound does the letter 'B' make?,Ball,Mispronounced
+2,Spell the word 'cat'.,Yes,Gibberish
+2,Which word has more syllables: 'happy' or 'hippopotamus'?,Yes,Random word
+5,What is the first letter of 'apple'?,Hat,Wrong answer
+4,Which one is an animal: 'giraffe' or 'table'?,No,Wrong answer
+3,What sound do you hear at the end of 'fish'?,A,Gibberish
+2,Which word is longer: 'sun' or 'elephant'?,Dog,Random word
+5,Spell the word 'cat'.,A,Wrong answer
+6,Say this sentence: 'I love to read books.',B,Mispronounced
+6,Say this sentence: 'The big dog ran fast.',B,Wrong answer
+2,Do 'cat' and 'bat' rhyme?,C,Mispronounced
+6,Which word is longer: 'sun' or 'elephant'?,B,Wrong answer
+7,What is missing from this word: '_og'?,Cat,Mispronounced
+3,What is the first letter of 'apple'?,Dog,Wrong answer
+6,Do 'cat' and 'bat' rhyme?,Yes,Wrong answer
+6,What sound do you hear at the end of 'fish'?,Ball,Wrong answer
+3,How many syllables are in 'elephant'?,Cat,Gibberish
+7,"What word comes after 'red' in this list: 'red, blue, ...'?",Hat,Random word
+5,Can you say the word 'dog'?,C,Wrong answer
+3,Say this sentence: 'The big dog ran fast.',Dog,Mispronounced
+3,Spell the word 'cat'.,Cat,Wrong answer
+3,Do these letters spell a word? 'H-A-T',C,Random word
+4,Is 'flig' a real word?,C,Random word
+5,Which one is an animal: 'giraffe' or 'table'?,Dog,Random word
+2,Say this sentence: 'I love to read books.',Cat,Random word
+2,Is 'flig' a real word?,B,Wrong answer
+3,What sound do you hear at the beginning of 'zebra'?,No,Gibberish
+4,What sound do you hear at the beginning of 'zebra'?,C,Wrong answer
+7,Say this sentence: 'The big dog ran fast.',Hat,Random word
+7,Which word is longer: 'sun' or 'elephant'?,A,Wrong answer
+4,"What word comes after 'red' in this list: 'red, blue, ...'?",B,Gibberish
+3,Can you say the word 'dog'?,Hat,Gibberish
+6,Which one is an animal: 'giraffe' or 'table'?,C,Gibberish
+6,Do these letters spell a word? 'H-A-T',Ball,Mispronounced
+3,Spell 'dog' out loud.,Cat,Wrong answer
+4,Which word has more syllables: 'happy' or 'hippopotamus'?,D,Mispronounced
+2,"What word comes after 'red' in this list: 'red, blue, ...'?",No,Mispronounced
+6,How many syllables are in 'elephant'?,No,Gibberish
+6,Which word is longer: 'sun' or 'elephant'?,C,Random word
+6,Which word rhymes with 'tree': 'bee' or 'rock'?,Yes,Gibberish
+4,Spell the word 'cat'.,C,Gibberish
+2,Which one is an animal: 'giraffe' or 'table'?,Ball,Random word
+7,How many syllables are in 'elephant'?,B,Gibberish
+6,Which one is an animal: 'giraffe' or 'table'?,B,Wrong answer
+4,Is 'flig' a real word?,C,Random word
+3,Is 'flig' a real word?,Hat,Random word
+5,Which word is longer: 'sun' or 'elephant'?,Cat,Gibberish
+7,What sound does the letter 'B' make?,Cat,Wrong answer
+2,"Say these words: 'ball, bat, bag'.",D,Gibberish
+2,What sound does the letter 'B' make?,Ball,Mispronounced
+7,Say this sentence: 'The big dog ran fast.',Yes,Wrong answer
+4,Can you say 'butterfly'?,B,Random word
+7,Spell the word 'cat'.,Dog,Wrong answer
+5,What sound do you hear at the beginning of 'zebra'?,D,Random word
+7,Is 'flig' a real word?,Yes,Gibberish
+7,"What word comes after 'red' in this list: 'red, blue, ...'?",Yes,Mispronounced
+3,How many syllables are in 'elephant'?,Yes,Mispronounced
+4,Say this sentence: 'The big dog ran fast.',C,Mispronounced
+2,Which one is an animal: 'giraffe' or 'table'?,C,Wrong answer
+4,"What word comes after 'red' in this list: 'red, blue, ...'?",Yes,Random word
+2,"What word comes after 'red' in this list: 'red, blue, ...'?",No,Wrong answer
+7,Do these letters spell a word? 'H-A-T',B,Gibberish
+4,What sound do you hear at the beginning of 'zebra'?,Cat,Mispronounced
+3,What sound do you hear at the end of 'fish'?,B,Gibberish
+7,"What word comes after 'red' in this list: 'red, blue, ...'?",No,Random word
+5,What sound does the letter 'B' make?,Cat,Wrong answer
+7,"What word comes after 'red' in this list: 'red, blue, ...'?",Ball,Gibberish
+7,"What word comes after 'red' in this list: 'red, blue, ...'?",Cat,Random word
+7,Is 'flig' a real word?,Hat,Wrong answer
+7,Say this sentence: 'The big dog ran fast.',D,Random word
+3,What sound do you hear at the beginning of 'zebra'?,B,Random word
+3,"What word comes after 'red' in this list: 'red, blue, ...'?",Ball,Gibberish
+7,What sound do you hear at the beginning of 'zebra'?,Ball,Gibberish
+5,What sound do you hear at the beginning of 'zebra'?,B,Gibberish
+3,Which word starts with the same letter as 'banana': 'dog' or 'ball'?,Dog,Gibberish
+2,"What word comes after 'red' in this list: 'red, blue, ...'?",No,Wrong answer
+6,Do 'cat' and 'bat' rhyme?,Ball,Random word
+2,"Say these words: 'ball, bat, bag'.",No,Mispronounced
+7,What sound does the letter 'B' make?,Ball,Random word
+7,"What word comes after 'red' in this list: 'red, blue, ...'?",No,Random word
+4,Which word is longer: 'sun' or 'elephant'?,Ball,Random word
+7,Spell 'dog' out loud.,Cat,Mispronounced
+7,What is missing from this word: '_og'?,Dog,Random word
+5,Is 'flig' a real word?,No,Gibberish
+6,Say this sentence: 'The big dog ran fast.',Yes,Random word
+4,What is the first letter of 'apple'?,A,Random word
+6,Which word has more syllables: 'happy' or 'hippopotamus'?,Ball,Mispronounced
+4,Say this sentence: 'The big dog ran fast.',Hat,Mispronounced
+7,Which word starts with the same letter as 'banana': 'dog' or 'ball'?,Ball,Random word
+7,Which word starts with the same letter as 'banana': 'dog' or 'ball'?,No,Mispronounced
+7,Can you say the word 'dog'?,C,Random word
+3,What sound does the letter 'B' make?,Ball,Mispronounced
+6,Which word rhymes with 'tree': 'bee' or 'rock'?,Dog,Gibberish
+6,What is missing from this word: '_og'?,D,Mispronounced
+2,What sound do you hear at the beginning of 'zebra'?,D,Wrong answer
+3,Which word has more syllables: 'happy' or 'hippopotamus'?,C,Wrong answer
+2,What is the first letter of 'apple'?,D,Mispronounced
+3,"Say these words: 'ball, bat, bag'.",Yes,Mispronounced
+6,What sound do you hear at the beginning of 'zebra'?,Dog,Gibberish
+5,Which word rhymes with 'tree': 'bee' or 'rock'?,Dog,Wrong answer
+4,Is 'flig' a real word?,No,Mispronounced
+6,Is 'flig' a real word?,Dog,Mispronounced
+2,What is missing from this word: '_og'?,Cat,Random word
+6,What is the first letter of 'apple'?,No,Mispronounced
+6,How many syllables are in 'elephant'?,C,Mispronounced
+3,Which one is an animal: 'giraffe' or 'table'?,C,Wrong answer
+7,Say this sentence: 'The big dog ran fast.',C,Wrong answer
+4,Which word is longer: 'sun' or 'elephant'?,Yes,Wrong answer
+5,Which one is an animal: 'giraffe' or 'table'?,B,Wrong answer
+5,Which word is longer: 'sun' or 'elephant'?,B,Random word
+5,Which one is an animal: 'giraffe' or 'table'?,C,Mispronounced
+4,"Say these words: 'ball, bat, bag'.",A,Random word
+3,"Say these words: 'ball, bat, bag'.",D,Mispronounced
+4,"What word comes after 'red' in this list: 'red, blue, ...'?",Cat,Random word
+2,What sound do you hear at the beginning of 'zebra'?,D,Gibberish
+7,What sound do you hear at the end of 'fish'?,Yes,Wrong answer
+2,Can you say 'butterfly'?,B,Mispronounced
+4,"What word comes after 'red' in this list: 'red, blue, ...'?",C,Wrong answer
+4,Spell 'dog' out loud.,D,Mispronounced
+5,"What word comes after 'red' in this list: 'red, blue, ...'?",C,Random word
+2,What sound does the letter 'B' make?,No,Gibberish
+5,"Say these words: 'ball, bat, bag'.",A,Gibberish
+4,Is 'flig' a real word?,B,Gibberish
+3,Spell the word 'cat'.,Ball,Gibberish
+6,What sound do you hear at the beginning of 'zebra'?,Hat,Gibberish
+4,Which word rhymes with 'tree': 'bee' or 'rock'?,A,Random word
+7,Which word rhymes with 'tree': 'bee' or 'rock'?,Hat,Gibberish
+5,"What word comes after 'red' in this list: 'red, blue, ...'?",No,Random word
+2,Which word has more syllables: 'happy' or 'hippopotamus'?,Dog,Wrong answer
+5,What is the first letter of 'apple'?,No,Wrong answer
+2,Which word rhymes with 'tree': 'bee' or 'rock'?,Yes,Mispronounced
+3,What is missing from this word: '_og'?,C,Mispronounced
+3,Spell 'dog' out loud.,No,Wrong answer
+5,Which word rhymes with 'tree': 'bee' or 'rock'?,Ball,Mispronounced
+3,"What word comes after 'red' in this list: 'red, blue, ...'?",Ball,Mispronounced
+3,Which word is longer: 'sun' or 'elephant'?,No,Gibberish
+4,What sound does the letter 'B' make?,Cat,Gibberish
+4,Can you say 'butterfly'?,C,Random word
+7,Say this sentence: 'The big dog ran fast.',Dog,Gibberish
+4,"What word comes after 'red' in this list: 'red, blue, ...'?",Ball,Mispronounced
+5,Spell the word 'cat'.,Dog,Mispronounced
+7,Can you say 'butterfly'?,B,Wrong answer
+5,Say this sentence: 'I love to read books.',Hat,Gibberish
+6,Say this sentence: 'The big dog ran fast.',Yes,Mispronounced
+7,Say this sentence: 'The big dog ran fast.',Yes,Gibberish
+4,Which word is longer: 'sun' or 'elephant'?,Yes,Mispronounced
+7,"What word comes after 'red' in this list: 'red, blue, ...'?",Cat,Gibberish
+2,How many syllables are in 'elephant'?,Hat,Random word
+3,Spell 'dog' out loud.,Cat,Gibberish
+5,Which one is an animal: 'giraffe' or 'table'?,Hat,Wrong answer
+3,Which word rhymes with 'tree': 'bee' or 'rock'?,B,Random word
+4,Which word has more syllables: 'happy' or 'hippopotamus'?,B,Mispronounced
+5,What is the first letter of 'apple'?,Ball,Random word
+3,Say this sentence: 'The big dog ran fast.',Cat,Wrong answer
+7,Spell the word 'cat'.,D,Gibberish
+6,Do these letters spell a word? 'H-A-T',No,Wrong answer
+5,Do 'cat' and 'bat' rhyme?,D,Gibberish
+4,Can you say the word 'dog'?,D,Mispronounced
+3,Can you say the word 'dog'?,C,Random word
+3,Do these letters spell a word? 'H-A-T',Yes,Random word
+7,What sound do you hear at the end of 'fish'?,Ball,Mispronounced
+2,Which one is an animal: 'giraffe' or 'table'?,D,Random word
+7,How many syllables are in 'elephant'?,Hat,Random word
+7,What sound does the letter 'B' make?,D,Random word
+4,Do 'cat' and 'bat' rhyme?,Ball,Gibberish
+6,Say this sentence: 'The big dog ran fast.',Ball,Random word
+7,Which word is longer: 'sun' or 'elephant'?,B,Gibberish
+5,Which word has more syllables: 'happy' or 'hippopotamus'?,Dog,Random word
+2,Can you say 'butterfly'?,Dog,Mispronounced
+2,How many syllables are in 'elephant'?,C,Gibberish
+6,Say this sentence: 'The big dog ran fast.',B,Mispronounced
+5,Which word is longer: 'sun' or 'elephant'?,A,Wrong answer
+4,"What word comes after 'red' in this list: 'red, blue, ...'?",D,Wrong answer
+3,What is the first letter of 'apple'?,Hat,Random word
+6,How many syllables are in 'elephant'?,No,Mispronounced
+5,What sound do you hear at the end of 'fish'?,Ball,Random word
+2,Can you say 'butterfly'?,B,Gibberish
+2,What sound does the letter 'B' make?,B,Gibberish
+6,Do 'cat' and 'bat' rhyme?,Ball,Mispronounced
+2,Can you say the word 'dog'?,Dog,Gibberish
+2,Do 'cat' and 'bat' rhyme?,D,Mispronounced
+7,Can you say the word 'dog'?,Yes,Random word
+5,What sound does the letter 'B' make?,B,Mispronounced
+3,What is missing from this word: '_og'?,B,Wrong answer
+5,Say this sentence: 'I love to read books.',D,Wrong answer
+5,Spell 'dog' out loud.,Dog,Wrong answer
+5,Which word starts with the same letter as 'banana': 'dog' or 'ball'?,No,Mispronounced
+6,Do these letters spell a word? 'H-A-T',D,Random word
+6,Which word starts with the same letter as 'banana': 'dog' or 'ball'?,A,Random word
+6,Say this sentence: 'The big dog ran fast.',Hat,Mispronounced
+4,Which word starts with the same letter as 'banana': 'dog' or 'ball'?,Yes,Wrong answer
+4,Is 'flig' a real word?,Yes,Random word
+7,What sound do you hear at the end of 'fish'?,Yes,Wrong answer
+2,Which word rhymes with 'tree': 'bee' or 'rock'?,Hat,Gibberish
+6,What sound do you hear at the beginning of 'zebra'?,Dog,Wrong answer
+3,Can you say 'butterfly'?,Ball,Random word
+5,Which one is an animal: 'giraffe' or 'table'?,Dog,Wrong answer
+2,Which word rhymes with 'tree': 'bee' or 'rock'?,D,Mispronounced
+5,What sound do you hear at the beginning of 'zebra'?,Yes,Gibberish
+6,Which one is an animal: 'giraffe' or 'table'?,Ball,Mispronounced
+3,Can you say 'butterfly'?,Hat,Mispronounced
+4,Which word has more syllables: 'happy' or 'hippopotamus'?,No,Wrong answer
+6,Say this sentence: 'The big dog ran fast.',C,Mispronounced
+2,Which word has more syllables: 'happy' or 'hippopotamus'?,Hat,Gibberish
+7,What sound does the letter 'B' make?,A,Random word
+4,Spell 'dog' out loud.,Hat,Wrong answer
+6,How many syllables are in 'elephant'?,Yes,Random word
+3,Which word is longer: 'sun' or 'elephant'?,B,Mispronounced
+2,Which word starts with the same letter as 'banana': 'dog' or 'ball'?,Dog,Gibberish
+2,Do 'cat' and 'bat' rhyme?,No,Random word
+5,Which word is longer: 'sun' or 'elephant'?,C,Random word
+4,What is the first letter of 'apple'?,Yes,Gibberish
+6,How many syllables are in 'elephant'?,C,Random word
+5,How many syllables are in 'elephant'?,Hat,Mispronounced
+3,Do these letters spell a word? 'H-A-T',Cat,Wrong answer
+2,Which one is an animal: 'giraffe' or 'table'?,Dog,Gibberish
+4,Do these letters spell a word? 'H-A-T',Cat,Wrong answer
+3,Can you say the word 'dog'?,B,Mispronounced
+6,Which word starts with the same letter as 'banana': 'dog' or 'ball'?,A,Wrong answer
+3,Which word starts with the same letter as 'banana': 'dog' or 'ball'?,No,Random word
+4,What sound do you hear at the end of 'fish'?,Cat,Mispronounced
+3,What sound do you hear at the end of 'fish'?,No,Mispronounced
+5,Which one is an animal: 'giraffe' or 'table'?,Hat,Mispronounced
+6,"Say these words: 'ball, bat, bag'.",Hat,Random word
+5,Which word starts with the same letter as 'banana': 'dog' or 'ball'?,Ball,Random word
+6,Can you say the word 'dog'?,Yes,Random word
+3,Which word starts with the same letter as 'banana': 'dog' or 'ball'?,No,Gibberish
+2,How many syllables are in 'elephant'?,Ball,Gibberish
+7,Which word starts with the same letter as 'banana': 'dog' or 'ball'?,Ball,Mispronounced
+7,Which word starts with the same letter as 'banana': 'dog' or 'ball'?,B,Random word
+3,Spell the word 'cat'.,Cat,Mispronounced
+5,What sound do you hear at the end of 'fish'?,No,Mispronounced
+2,What sound does the letter 'B' make?,Cat,Random word
+5,Do 'cat' and 'bat' rhyme?,Hat,Gibberish
+4,What is the first letter of 'apple'?,Dog,Gibberish
+6,Spell 'dog' out loud.,A,Mispronounced
+3,Say this sentence: 'I love to read books.',D,Wrong answer
+2,Spell 'dog' out loud.,Yes,Wrong answer
+2,Which word rhymes with 'tree': 'bee' or 'rock'?,D,Gibberish
+7,Which word starts with the same letter as 'banana': 'dog' or 'ball'?,No,Random word
+4,Which word rhymes with 'tree': 'bee' or 'rock'?,A,Wrong answer
+3,Can you say the word 'dog'?,Ball,Mispronounced
+5,What sound do you hear at the end of 'fish'?,C,Random word
+5,What is the first letter of 'apple'?,A,Mispronounced
+4,Can you say 'butterfly'?,Dog,Gibberish
+6,Can you say the word 'dog'?,A,Wrong answer
+2,Which word is longer: 'sun' or 'elephant'?,Hat,Wrong answer
+7,Spell the word 'cat'.,Ball,Mispronounced
+5,What is missing from this word: '_og'?,A,Random word
+5,"What word comes after 'red' in this list: 'red, blue, ...'?",No,Mispronounced
+4,What sound does the letter 'B' make?,Ball,Wrong answer
+4,Which word has more syllables: 'happy' or 'hippopotamus'?,D,Wrong answer
+7,Which word rhymes with 'tree': 'bee' or 'rock'?,Yes,Wrong answer
+7,What is the first letter of 'apple'?,B,Gibberish
+4,Which word is longer: 'sun' or 'elephant'?,No,Wrong answer
+4,"Say these words: 'ball, bat, bag'.",Dog,Gibberish
+7,How many syllables are in 'elephant'?,Cat,Mispronounced
+5,Which word starts with the same letter as 'banana': 'dog' or 'ball'?,A,Mispronounced
+3,What is the first letter of 'apple'?,Ball,Gibberish
+6,Spell 'dog' out loud.,D,Wrong answer
+6,What is the first letter of 'apple'?,A,Wrong answer
+2,Spell 'dog' out loud.,Dog,Wrong answer
+2,Is 'flig' a real word?,B,Wrong answer
+5,"What word comes after 'red' in this list: 'red, blue, ...'?",Yes,Random word
+7,Do these letters spell a word? 'H-A-T',Dog,Random word
+4,What sound does the letter 'B' make?,No,Mispronounced
+2,Is 'flig' a real word?,No,Mispronounced
+6,What sound do you hear at the beginning of 'zebra'?,C,Random word
+6,How many syllables are in 'elephant'?,A,Random word
+6,What sound does the letter 'B' make?,Cat,Gibberish
+5,Can you say the word 'dog'?,Dog,Random word
+4,Spell 'dog' out loud.,Ball,Random word
+4,Which word is longer: 'sun' or 'elephant'?,Cat,Mispronounced
+3,Which word rhymes with 'tree': 'bee' or 'rock'?,Yes,Mispronounced
+6,What is the first letter of 'apple'?,Hat,Gibberish
+4,Can you say the word 'dog'?,No,Wrong answer
+3,What sound does the letter 'B' make?,No,Wrong answer
+2,Which word is longer: 'sun' or 'elephant'?,A,Gibberish
+7,Can you say the word 'dog'?,Yes,Wrong answer
+6,Say this sentence: 'The big dog ran fast.',C,Mispronounced
+4,What is missing from this word: '_og'?,Dog,Mispronounced
+7,Which word rhymes with 'tree': 'bee' or 'rock'?,Dog,Wrong answer
+5,Which word starts with the same letter as 'banana': 'dog' or 'ball'?,A,Wrong answer
+2,"What word comes after 'red' in this list: 'red, blue, ...'?",Hat,Random word
+3,Do these letters spell a word? 'H-A-T',A,Gibberish
+5,Which word starts with the same letter as 'banana': 'dog' or 'ball'?,C,Random word
+7,Do these letters spell a word? 'H-A-T',D,Random word
+4,Is 'flig' a real word?,D,Mispronounced
+4,Which word starts with the same letter as 'banana': 'dog' or 'ball'?,Hat,Wrong answer
+6,Which word rhymes with 'tree': 'bee' or 'rock'?,Hat,Wrong answer
+4,What is the first letter of 'apple'?,Yes,Wrong answer
+3,Can you say 'butterfly'?,Hat,Random word
+7,Which word rhymes with 'tree': 'bee' or 'rock'?,D,Mispronounced
+4,"What word comes after 'red' in this list: 'red, blue, ...'?",B,Mispronounced
+7,Do these letters spell a word? 'H-A-T',Hat,Mispronounced
+5,Which word starts with the same letter as 'banana': 'dog' or 'ball'?,Dog,Wrong answer
+7,Which one is an animal: 'giraffe' or 'table'?,Dog,Wrong answer
+4,Can you say the word 'dog'?,B,Gibberish
+3,Which word starts with the same letter as 'banana': 'dog' or 'ball'?,D,Mispronounced
+3,Which word is longer: 'sun' or 'elephant'?,D,Wrong answer
+7,Can you say 'butterfly'?,No,Gibberish
+2,What sound does the letter 'B' make?,Ball,Gibberish
+2,Can you say the word 'dog'?,B,Random word
+4,Say this sentence: 'I love to read books.',Yes,Random word
+5,How many syllables are in 'elephant'?,Ball,Wrong answer
+6,Spell the word 'cat'.,Cat,Mispronounced
+4,What is the first letter of 'apple'?,Cat,Gibberish
+2,What sound does the letter 'B' make?,C,Gibberish
+5,Can you say 'butterfly'?,B,Wrong answer
+5,What is the first letter of 'apple'?,D,Wrong answer
+6,Spell the word 'cat'.,Ball,Random word
+6,Is 'flig' a real word?,A,Mispronounced
+4,What sound do you hear at the end of 'fish'?,B,Random word
+7,Which word rhymes with 'tree': 'bee' or 'rock'?,D,Mispronounced
+6,"What word comes after 'red' in this list: 'red, blue, ...'?",A,Mispronounced
+6,Say this sentence: 'I love to read books.',Cat,Wrong answer
+7,"What word comes after 'red' in this list: 'red, blue, ...'?",Dog,Gibberish
+4,What sound do you hear at the beginning of 'zebra'?,A,Gibberish
+5,What sound do you hear at the beginning of 'zebra'?,C,Random word
+2,"What word comes after 'red' in this list: 'red, blue, ...'?",No,Mispronounced
+5,What is the first letter of 'apple'?,Dog,Wrong answer
+5,Say this sentence: 'The big dog ran fast.',Yes,Wrong answer
+3,Which word starts with the same letter as 'banana': 'dog' or 'ball'?,Cat,Random word
+3,What sound do you hear at the end of 'fish'?,Cat,Wrong answer
+5,What is missing from this word: '_og'?,B,Random word
+6,Which word has more syllables: 'happy' or 'hippopotamus'?,D,Random word
+5,Which word has more syllables: 'happy' or 'hippopotamus'?,Yes,Mispronounced
+2,What is missing from this word: '_og'?,Cat,Wrong answer
+7,Say this sentence: 'I love to read books.',C,Mispronounced
+4,"Say these words: 'ball, bat, bag'.",Hat,Random word
+6,What is the first letter of 'apple'?,Ball,Gibberish
+2,"Say these words: 'ball, bat, bag'.",Cat,Mispronounced
+5,Can you say 'butterfly'?,A,Random word
+4,Which word rhymes with 'tree': 'bee' or 'rock'?,D,Random word
+6,Say this sentence: 'I love to read books.',Yes,Gibberish
+7,Do these letters spell a word? 'H-A-T',Hat,Wrong answer
+2,Which word has more syllables: 'happy' or 'hippopotamus'?,Ball,Mispronounced
+6,Which word is longer: 'sun' or 'elephant'?,C,Mispronounced
+5,Which word starts with the same letter as 'banana': 'dog' or 'ball'?,Cat,Mispronounced
+5,"What word comes after 'red' in this list: 'red, blue, ...'?",Cat,Random word
+6,What is the first letter of 'apple'?,C,Random word
+6,Can you say the word 'dog'?,Hat,Wrong answer
+3,"What word comes after 'red' in this list: 'red, blue, ...'?",D,Random word
+7,"Say these words: 'ball, bat, bag'.",Dog,Wrong answer
+2,Can you say the word 'dog'?,Yes,Wrong answer
+2,Can you say 'butterfly'?,Dog,Mispronounced
+3,"What word comes after 'red' in this list: 'red, blue, ...'?",D,Random word
+7,What sound does the letter 'B' make?,A,Mispronounced
+6,"What word comes after 'red' in this list: 'red, blue, ...'?",A,Gibberish
+4,What sound do you hear at the beginning of 'zebra'?,B,Gibberish
+7,Which word has more syllables: 'happy' or 'hippopotamus'?,Dog,Wrong answer
+6,What sound do you hear at the end of 'fish'?,B,Gibberish
+6,Which word starts with the same letter as 'banana': 'dog' or 'ball'?,D,Mispronounced
+3,"Say these words: 'ball, bat, bag'.",D,Gibberish
+5,Say this sentence: 'I love to read books.',Ball,Wrong answer
+7,What is missing from this word: '_og'?,Dog,Wrong answer
+6,What is missing from this word: '_og'?,Hat,Wrong answer
+3,What is the first letter of 'apple'?,D,Random word
+4,"Say these words: 'ball, bat, bag'.",B,Wrong answer
+3,How many syllables are in 'elephant'?,No,Gibberish
+7,Which word has more syllables: 'happy' or 'hippopotamus'?,A,Mispronounced
+3,Do 'cat' and 'bat' rhyme?,C,Gibberish
+6,What sound do you hear at the beginning of 'zebra'?,No,Gibberish
+6,Can you say 'butterfly'?,No,Random word
+6,Do these letters spell a word? 'H-A-T',C,Mispronounced
+4,What sound do you hear at the beginning of 'zebra'?,Yes,Mispronounced
+7,Say this sentence: 'I love to read books.',C,Mispronounced
+6,Can you say the word 'dog'?,Ball,Mispronounced
+5,"Say these words: 'ball, bat, bag'.",B,Mispronounced
