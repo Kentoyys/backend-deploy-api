@@ -1,4 +1,5 @@
 from fastapi import FastAPI
+import uvicorn
 from fastapi.middleware.cors import CORSMiddleware
 from routers.spelling_test import router as spelling_router
 from routers.handwritten_test import router as handwritten_router
@@ -33,3 +34,7 @@ app.include_router(arithmetic_router, prefix="/arithmetic_test", tags=["Dyslexia
 @app.get("/")
 def root():
     return {"message": "EarlyEdge API is running!"}
+
+if __name__ == "__main__":
+    port = int(os.environ.get("PORT", 8000))
+    uvicorn.run("main:app", host="0.0.0.0", port=port, reload=False)
