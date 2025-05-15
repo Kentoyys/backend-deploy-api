@@ -1,4 +1,5 @@
 from fastapi import FastAPI
+import uvicorn
 from fastapi.middleware.cors import CORSMiddleware
 from routers.spelling_test import router as spelling_router
 from routers.handwritten_test import router as handwritten_router
@@ -18,7 +19,7 @@ app.mount("/audio", StaticFiles(directory=os.path.join(os.getcwd(), "audio/corre
 # Add CORS middleware
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["https://early-edge.vercel.app/"],  # Update this for production
+    allow_origins=["*"],  # Update this for production
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
