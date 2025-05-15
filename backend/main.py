@@ -19,7 +19,7 @@ app.mount("/audio", StaticFiles(directory=os.path.join(os.getcwd(), "audio/corre
 # Add CORS middleware
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],  # Update this for production
+    allow_origins=["https://early-edge.vercel.app/"],  # Update this for production
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
