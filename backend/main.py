@@ -8,6 +8,7 @@ from routers.numberunderstanding import router as numberunderstanding_router
 from routers.arithmetic_test import router as arithmetic_router
 from fastapi.staticfiles import StaticFiles
 import os
+import uvicorn
 
 app = FastAPI()
 
@@ -17,7 +18,7 @@ app.mount("/audio", StaticFiles(directory=os.path.join(os.getcwd(), "audio/corre
 # Add CORS middleware
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],  # Update this for production
+    allow_origins=["https://early-edge.vercel.app/"],  # Update this for production
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
@@ -33,3 +34,7 @@ app.include_router(arithmetic_router, prefix="/arithmetic_test", tags=["Dyslexia
 @app.get("/")
 def root():
     return {"message": "EarlyEdge API is running!"}
+
+if __name__ == "__main__":
+    port = int(os.environ.get("PORT", 8000))
+    uvicorn.run("main:app", host="0.0.0.0", port=port, reload=False)
