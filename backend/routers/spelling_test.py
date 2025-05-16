@@ -7,6 +7,7 @@ import string
 import traceback
 import librosa
 import os
+from difflib import SequenceMatcher
 
 router = APIRouter()
 
@@ -20,21 +21,23 @@ try:
 except FileNotFoundError as e:
     raise FileNotFoundError(f"CSV file not found: {e.filename}")
 
-# === Load trained model ===
+# === Load trained model and scaler ===
 model_path = './models/dyslexia_spelling_audio_model.joblib'
 try:
-    model = joblib.load(model_path)
+    model_bundle = joblib.load(model_path)
+    model = model_bundle['model']
+    scaler = model_bundle['scaler']
 except FileNotFoundError:
     raise FileNotFoundError(f"Model file not found at {model_path}")
 
-# === Risk classification ===
-def classify_risk(score):
-    if score >= 0.7:
-        return "High"
-    elif score >= 0.4:
-        return "Medium"
+# === Risk classification for spelling ===
+def classify_spelling_risk(prob):
+    if prob >= 0.7:
+        return "Strong indicators"
+    elif prob >= 0.4:
+        return "Emerging indicators"
     else:
-        return "Low"
+        return "Minimal indicators"
 
 # === Endpoint: Get random audio ===
 @router.get("/get-audio")
@@ -89,23 +92,24 @@ async def validate_answer(request: Request):
             audio_path = os.path.join(base_dir, '..', normalized_audio_file)
 
             y_audio, sr = librosa.load(audio_path, sr=16000)
-            mfcc = librosa.feature.mfcc(y=y_audio, sr=sr, n_mfcc=13)
-
+            mfcc = librosa.feature.mfcc(y=y_audio, sr=sr, n_mfcc=20)
+            mfcc_delta = librosa.feature.delta(mfcc)
+            mfcc_delta2 = librosa.feature.delta(mfcc, order=2)
+            features = np.concatenate([mfcc, mfcc_delta, mfcc_delta2], axis=0)
             max_len = 100
-            if mfcc.shape[1] < max_len:
-                pad_width = max_len - mfcc.shape[1]
-                mfcc = np.pad(mfcc, ((0, 0), (0, pad_width)), mode='constant')
+            if features.shape[1] < max_len:
+                pad_width = max_len - features.shape[1]
+                features = np.pad(features, ((0, 0), (0, pad_width)), mode='constant')
             else:
-                mfcc = mfcc[:, :max_len]
-
-            input_vector = mfcc.flatten().reshape(1, -1)
-
+                features = features[:, :max_len]
+            input_vector = features.flatten().reshape(1, -1)
+            input_vector = scaler.transform(input_vector)
             if hasattr(model, "predict_proba"):
-                dyslexia_prob = model.predict_proba(input_vector)[0][1]
+                # Probability of being incorrect (class 1)
+                spelling_prob = model.predict_proba(input_vector)[0][1]
             else:
                 prediction = model.predict(input_vector)[0]
-                dyslexia_prob = 0.5 if prediction == 1 else 0.1
-
+                spelling_prob = 1.0 if prediction == 1 else 0.0
         except Exception as model_error:
             traceback.print_exc()
             return JSONResponse(
@@ -113,14 +117,16 @@ async def validate_answer(request: Request):
                 content={"error": f"Error during model prediction: {str(model_error)}"},
             )
 
-        risk = classify_risk(dyslexia_prob)
+        print(f"spelling_prob for {audio_file}: {spelling_prob}")
+
+        spelling_risk = classify_spelling_risk(spelling_prob)
 
         return {
             "is_correct": is_correct,
             "user_answer": user_answer,
             "correct_word": correct_word,
-            "dyslexia_score": round(dyslexia_prob, 2),
-            "risk": risk,
+            "spelling_incorrect_prob": round(spelling_prob, 2),
+            "spelling_risk": spelling_risk,
         }
 
     except Exception as e:

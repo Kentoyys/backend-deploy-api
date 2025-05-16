@@ -7,10 +7,8 @@ type ResultData = {
   user_answer: string;
   correct_word: string;
   is_correct: boolean;
-  dyslexia_score: number;
-  risk: string;
-  prediction?: string; // Add prediction field
-  confidence?: number; // Add confidence field
+  spelling_incorrect_prob: number;
+  spelling_risk: string;
 };
 
 const SpellingTask = () => {
@@ -39,8 +37,8 @@ useEffect(() => {
     })
     .then((data) => {
       const audioFileName = data.audio_file.replace("audio/correct/", "");
-      setAudioUrl(`http://127.0.0.1:8000/audio/${audioFileName}`);
-      setAudioFileName(audioFileName);
+      setAudioUrl(`http://127.0.0.1:8000/${data.audio_file}`);
+setAudioFileName(data.audio_file.replace("audio/correct/", ""));
     })
     .catch((err) => {
       console.error(err);
@@ -176,20 +174,8 @@ const handleSubmit = async () => {
                   </span>
                 </p>
                 <p>
-                  <strong>Dyslexia Risk:</strong> {result.risk} (
-                  {result.dyslexia_score})
+                  <strong>Spelling Risk:</strong> {result.spelling_risk} (Probability: {result.spelling_incorrect_prob})
                 </p>
-                {result.prediction && (
-                  <p>
-                    <strong>Prediction:</strong> {result.prediction}
-                  </p>
-                )}
-                {result.confidence && (
-                  <p>
-                    <strong>Confidence:</strong>{" "}
-                    {(result.confidence * 100).toFixed(2)}%
-                  </p>
-                )}
               </div>
             )}
 
