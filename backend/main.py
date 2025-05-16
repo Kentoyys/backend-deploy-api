@@ -13,13 +13,14 @@ import uvicorn
 
 app = FastAPI()
 
+# Serve static files for audio
 app.mount("/audio/correct", StaticFiles(directory="audio/correct"), name="correct_audio")
 app.mount("/audio/incorrect", StaticFiles(directory="audio/incorrect"), name="incorrect_audio")
 
 # Add CORS middleware
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["https://early-edge.vercel.app/"],  # Update this for production
+    allow_origins=["https://early-edge.vercel.app"],  # Update this for production
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
