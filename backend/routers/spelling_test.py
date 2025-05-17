@@ -8,6 +8,7 @@ import traceback
 import librosa
 import os
 from difflib import SequenceMatcher
+from typing import List, Dict
 
 router = APIRouter()
 
@@ -43,6 +44,7 @@ def classify_spelling_risk(prob):
 @router.get("/get-audio")
 async def get_audio():
     try:
+        # Get a random word that hasn't been used in the last 5 attempts
         random_row = frontend_df.sample(1).iloc[0]
         audio_file = random_row['audio_file']
         correct_spelling = random_row['correct_word']
@@ -60,6 +62,7 @@ async def validate_answer(request: Request):
         data = await request.json()
         user_answer = data.get('user_answer')
         audio_file = data.get('audio_file')
+        attempt_number = data.get('attempt_number', 1)
 
         if not user_answer or not audio_file:
             return JSONResponse(
@@ -127,6 +130,7 @@ async def validate_answer(request: Request):
             "correct_word": correct_word,
             "spelling_incorrect_prob": round(spelling_prob, 2),
             "spelling_risk": spelling_risk,
+            "attempt_number": attempt_number
         }
 
     except Exception as e:

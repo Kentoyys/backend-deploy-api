@@ -13,9 +13,12 @@ import uvicorn
 
 app = FastAPI()
 
-# Serve static files for audio
 app.mount("/audio/correct", StaticFiles(directory="audio/correct"), name="correct_audio")
 app.mount("/audio/incorrect", StaticFiles(directory="audio/incorrect"), name="incorrect_audio")
+<<<<<<< HEAD
+=======
+
+>>>>>>> 4d8ec595ff22a9f4143a75cadf996b4d62a93c60
 
 # Add CORS middleware
 app.add_middleware(
