@@ -7,6 +7,7 @@ from routers.phonospeech_test import router as phonospeech_router
 from routers.letterconfusion import router as letterconfusion_router
 from routers.numberunderstanding import router as numberunderstanding_router
 from routers.arithmetic_test import router as arithmetic_router
+from routers.letter_tracing import router as letter_tracing_router
 from fastapi.staticfiles import StaticFiles
 import os
 import uvicorn
@@ -32,7 +33,7 @@ app.include_router(phonospeech_router, prefix="/phonospeech_test", tags=["Dyslex
 app.include_router(letterconfusion_router, prefix="/letterconfusion_test", tags=["Dyslexia Letter Confusion"])
 app.include_router(numberunderstanding_router, prefix="/numberunderstanding_test", tags=["Dyslexia Number Understanding"])
 app.include_router(arithmetic_router, prefix="/arithmetic_test", tags=["Dyslexia Arithmetic"])
-
+app.include_router(letter_tracing_router, prefix="/letter_tracing", tags=["Dysgraphia Letter Tracing"])
 @app.get("/")
 def root():
     return {"message": "EarlyEdge API is running!"}
