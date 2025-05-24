@@ -1,0 +1,168 @@
+Question_ID,Age,Category,Question,Correct_Response,Child_Response,Risk_Level,Confidence_Score
+1,5,Phonological Awareness,"Say these sounds: /b/ /a/ /t/","bat","bat",Minimal,1.0
+1,5,Phonological Awareness,"Say these sounds: /b/ /a/ /t/","bat","bad",Emerging,0.8
+1,5,Phonological Awareness,"Say these sounds: /b/ /a/ /t/","bat","ba",Emerging,0.7
+1,5,Phonological Awareness,"Say these sounds: /b/ /a/ /t/","bat","pat",Emerging,0.7
+1,5,Phonological Awareness,"Say these sounds: /b/ /a/ /t/","bat","cat",Strong_Indicators,0.6
+1,5,Phonological Awareness,"Say these sounds: /b/ /a/ /t/","bat","dog",Strong_Indicators,0.6
+1,5,Phonological Awareness,"Say these sounds: /b/ /a/ /t/","bat","fish",Strong_Indicators,0.6
+1,5,Phonological Awareness,"Say these sounds: /b/ /a/ /t/","bat","at",Emerging,0.7
+1,5,Phonological Awareness,"Say these sounds: /b/ /a/ /t/","bat","tab",Emerging,0.7
+1,5,Phonological Awareness,"Say these sounds: /b/ /a/ /t/","bat","b t",Emerging,0.7
+1,5,Phonological Awareness,"Say these sounds: /b/ /a/ /t/","bat","bat bat",Strong_Indicators,0.5
+1,5,Phonological Awareness,"Say these sounds: /b/ /a/ /t/","bat","",Strong_Indicators,0.4
+2,5,Phonological Awareness,"What sound do you hear at the beginning of 'sun'?","s","s",Minimal,1.0
+2,5,Phonological Awareness,"What sound do you hear at the beginning of 'sun'?","s","sh",Emerging,0.8
+2,5,Phonological Awareness,"What sound do you hear at the beginning of 'sun'?","s","th",Emerging,0.7
+2,5,Phonological Awareness,"What sound do you hear at the beginning of 'sun'?","s","f",Emerging,0.7
+2,5,Phonological Awareness,"What sound do you hear at the beginning of 'sun'?","s","z",Emerging,0.7
+2,5,Phonological Awareness,"What sound do you hear at the beginning of 'sun'?","s","cat",Strong_Indicators,0.7
+2,5,Phonological Awareness,"What sound do you hear at the beginning of 'sun'?","s","dog",Strong_Indicators,0.7
+2,5,Phonological Awareness,"What sound do you hear at the beginning of 'sun'?","s","sun",Strong_Indicators,0.7
+2,5,Phonological Awareness,"What sound do you hear at the beginning of 'sun'?","s","",Strong_Indicators,0.6
+3,5,Phonological Awareness,"What sound do you hear at the end of 'cat'?","t","t",Minimal,1.0
+3,5,Phonological Awareness,"What sound do you hear at the end of 'cat'?","t","d",Emerging,0.8
+3,5,Phonological Awareness,"What sound do you hear at the end of 'cat'?","t","k",Emerging,0.7
+3,5,Phonological Awareness,"What sound do you hear at the end of 'cat'?","t","b",Emerging,0.7
+3,5,Phonological Awareness,"What sound do you hear at the end of 'cat'?","t","g",Emerging,0.7
+3,5,Phonological Awareness,"What sound do you hear at the end of 'cat'?","t","m",Emerging,0.7
+3,5,Phonological Awareness,"What sound do you hear at the end of 'cat'?","t","bat",Strong_Indicators,0.6
+3,5,Phonological Awareness,"What sound do you hear at the end of 'cat'?","t","mat",Strong_Indicators,0.6
+3,5,Phonological Awareness,"What sound do you hear at the end of 'cat'?","t","dog",Strong_Indicators,0.6
+3,5,Phonological Awareness,"What sound do you hear at the end of 'cat'?","t","fish",Strong_Indicators,0.6
+3,5,Phonological Awareness,"What sound do you hear at the end of 'cat'?","t","apple",Strong_Indicators,0.6
+3,5,Phonological Awareness,"What sound do you hear at the end of 'cat'?","t","at",Emerging,0.7
+3,5,Phonological Awareness,"What sound do you hear at the end of 'cat'?","t","ta",Emerging,0.7
+3,5,Phonological Awareness,"What sound do you hear at the end of 'cat'?","t","tap",Emerging,0.7
+3,5,Phonological Awareness,"What sound do you hear at the end of 'cat'?","t","tat",Emerging,0.7
+3,5,Phonological Awareness,"What sound do you hear at the end of 'cat'?","t","t t",Emerging,0.7
+3,5,Phonological Awareness,"What sound do you hear at the end of 'cat'?","t","",Strong_Indicators,0.4
+4,5,Phonological Awareness,"How many syllables are in 'elephant'?","3","3",Minimal,1.0
+4,5,Phonological Awareness,"How many syllables are in 'elephant'?","3","2",Emerging,0.8
+4,5,Phonological Awareness,"How many syllables are in 'elephant'?","3","4",Emerging,0.7
+4,5,Phonological Awareness,"How many syllables are in 'elephant'?","3","1",Emerging,0.7
+4,5,Phonological Awareness,"How many syllables are in 'elephant'?","3","elephant",Emerging,0.7
+4,5,Phonological Awareness,"How many syllables are in 'elephant'?","3","cat",Strong_Indicators,0.7
+4,5,Phonological Awareness,"How many syllables are in 'elephant'?","3","dog",Strong_Indicators,0.7
+4,5,Phonological Awareness,"How many syllables are in 'elephant'?","3","fish",Strong_Indicators,0.7
+4,5,Phonological Awareness,"How many syllables are in 'elephant'?","3","",Strong_Indicators,0.6
+5,5,Phonological Awareness,"Which word rhymes with 'cat': 'hat' or 'dog'?","hat","hat",Minimal,1.0
+5,5,Phonological Awareness,"Which word rhymes with 'cat': 'hat' or 'dog'?","hat","dog",Emerging,0.8
+5,5,Phonological Awareness,"Which word rhymes with 'cat': 'hat' or 'dog'?","hat","cat",Emerging,0.7
+5,5,Phonological Awareness,"Which word rhymes with 'cat': 'hat' or 'dog'?","hat","bat",Emerging,0.7
+5,5,Phonological Awareness,"Which word rhymes with 'cat': 'hat' or 'dog'?","hat","fish",Strong_Indicators,0.7
+5,5,Phonological Awareness,"Which word rhymes with 'cat': 'hat' or 'dog'?","hat","mat",Emerging,0.7
+5,5,Phonological Awareness,"Which word rhymes with 'cat': 'hat' or 'dog'?","hat","doggy",Strong_Indicators,0.7
+5,5,Phonological Awareness,"Which word rhymes with 'cat': 'hat' or 'dog'?","hat","",Strong_Indicators,0.6
+6,5,Phonological Awareness,"Say these words: 'ball, bat, bag'","ball bat bag","ball bat bag",Minimal,1.0
+6,5,Phonological Awareness,"Say these words: 'ball, bat, bag'","ball bat bag","ball bag bat",Emerging,0.8
+6,5,Phonological Awareness,"Say these words: 'ball, bat, bag'","ball bat bag","ball bat",Emerging,0.7
+6,5,Phonological Awareness,"Say these words: 'ball, bat, bag'","ball bat bag","",Strong_Indicators,0.6
+7,5,Phonological Awareness,"What word do you get when you put these sounds together: /c/ /a/ /t/?","cat","cat",Minimal,1.0
+7,5,Phonological Awareness,"What word do you get when you put these sounds together: /c/ /a/ /t/?","cat","cap",Emerging,0.8
+7,5,Phonological Awareness,"What word do you get when you put these sounds together: /c/ /a/ /t/?","cat","ca",Emerging,0.7
+7,5,Phonological Awareness,"What word do you get when you put these sounds together: /c/ /a/ /t/?","cat","",Strong_Indicators,0.6
+8,5,Phonological Awareness,"Which word starts with the same sound as 'ball': 'dog' or 'bat'?","bat","bat",Minimal,1.0
+8,5,Phonological Awareness,"Which word starts with the same sound as 'ball': 'dog' or 'bat'?","bat","dog",Emerging,0.8
+8,5,Phonological Awareness,"Which word starts with the same sound as 'ball': 'dog' or 'bat'?","bat","",Strong_Indicators,0.6
+9,5,Word Recognition,"Read this word: 'cat'","cat","cat",Minimal,1.0
+9,5,Word Recognition,"Read this word: 'cat'","cat","cap",Emerging,0.8
+9,5,Word Recognition,"Read this word: 'cat'","cat","cut",Emerging,0.7
+9,5,Word Recognition,"Read this word: 'cat'","cat","",Strong_Indicators,0.6
+10,5,Word Recognition,"Is this a real word: 'flig'?","no","no",Minimal,1.0
+10,5,Word Recognition,"Is this a real word: 'flig'?","no","yes",Emerging,0.8
+10,5,Word Recognition,"Is this a real word: 'flig'?","no","",Strong_Indicators,0.6
+11,5,Word Recognition,"Read these words: 'the, and, is'","the and is","the and is",Minimal,1.0
+11,5,Word Recognition,"Read these words: 'the, and, is'","the and is","the is and",Emerging,0.8
+11,5,Word Recognition,"Read these words: 'the, and, is'","the and is","",Strong_Indicators,0.6
+12,5,Word Recognition,"Which word is longer: 'sun' or 'elephant'?","elephant","elephant",Minimal,1.0
+12,5,Word Recognition,"Which word is longer: 'sun' or 'elephant'?","elephant","sun",Emerging,0.8
+12,5,Word Recognition,"Which word is longer: 'sun' or 'elephant'?","elephant","",Strong_Indicators,0.6
+13,5,Word Recognition,"Read this sentence: 'The big dog ran fast.'","The big dog ran fast.","The big dog ran fast.",Minimal,1.0
+13,5,Word Recognition,"Read this sentence: 'The big dog ran fast.'","The big dog ran fast.","The big dog run fast.",Emerging,0.8
+13,5,Word Recognition,"Read this sentence: 'The big dog ran fast.'","The big dog ran fast.","",Strong_Indicators,0.6
+14,5,Phoneme Manipulation,"What word do you get if you change the first sound in 'cat' to /b/?","bat","bat",Minimal,1.0
+14,5,Phoneme Manipulation,"What word do you get if you change the first sound in 'cat' to /b/?","bat","bad",Emerging,0.8
+14,5,Phoneme Manipulation,"What word do you get if you change the first sound in 'cat' to /b/?","bat","",Strong_Indicators,0.6
+15,5,Phoneme Manipulation,"What word do you get if you take away the first sound in 'stop'?","top","top",Minimal,1.0
+15,5,Phoneme Manipulation,"What word do you get if you take away the first sound in 'stop'?","top","op",Emerging,0.8
+15,5,Phoneme Manipulation,"What word do you get if you take away the first sound in 'stop'?","top","",Strong_Indicators,0.6
+16,5,Phoneme Manipulation,"What word do you get if you add /s/ to the beginning of 'top'?","stop","stop",Minimal,1.0
+16,5,Phoneme Manipulation,"What word do you get if you add /s/ to the beginning of 'top'?","stop","sop",Emerging,0.8
+16,5,Phoneme Manipulation,"What word do you get if you add /s/ to the beginning of 'top'?","stop","",Strong_Indicators,0.6
+17,5,Phoneme Manipulation,"What word do you get if you change the last sound in 'cat' to /p/?","cap","cap",Minimal,1.0
+17,5,Phoneme Manipulation,"What word do you get if you change the last sound in 'cat' to /p/?","cap","cat",Emerging,0.8
+17,5,Phoneme Manipulation,"What word do you get if you change the last sound in 'cat' to /p/?","cap","",Strong_Indicators,0.6
+18,5,Rapid Naming,"Name these colors as fast as you can: red, blue, green, yellow","red blue green yellow","red blue green yellow",Minimal,1.0
+18,5,Rapid Naming,"Name these colors as fast as you can: red, blue, green, yellow","red blue green yellow","red blue yellow green",Emerging,0.8
+18,5,Rapid Naming,"Name these colors as fast as you can: red, blue, green, yellow","red blue green yellow","",Strong_Indicators,0.6
+19,5,Rapid Naming,"Name these letters as fast as you can: a, b, c, d","a b c d","a b c d",Minimal,1.0
+19,5,Rapid Naming,"Name these letters as fast as you can: a, b, c, d","a b c d","a d b c",Emerging,0.8
+19,5,Rapid Naming,"Name these letters as fast as you can: a, b, c, d","a b c d","",Strong_Indicators,0.6
+20,5,Rapid Naming,"Name these numbers as fast as you can: 1, 2, 3, 4","1 2 3 4","1 2 3 4",Minimal,1.0
+20,5,Rapid Naming,"Name these numbers as fast as you can: 1, 2, 3, 4","1 2 3 4","1 4 2 3",Emerging,0.8
+20,5,Rapid Naming,"Name these numbers as fast as you can: 1, 2, 3, 4","1 2 3 4","",Strong_Indicators,0.6
+21,7,Phonological Awareness,"Say these sounds: /sh/ /i/ /p/","ship","ship",Minimal,1.0
+21,7,Phonological Awareness,"Say these sounds: /sh/ /i/ /p/","ship","sheep",Emerging,0.8
+21,7,Phonological Awareness,"Say these sounds: /sh/ /i/ /p/","ship","sip",Emerging,0.7
+21,7,Phonological Awareness,"Say these sounds: /sh/ /i/ /p/","ship","",Strong_Indicators,0.6
+22,7,Phonological Awareness,"What sound do you hear at the beginning of 'chair'?","ch","ch",Minimal,1.0
+22,7,Phonological Awareness,"What sound do you hear at the beginning of 'chair'?","ch","sh",Emerging,0.8
+22,7,Phonological Awareness,"What sound do you hear at the beginning of 'chair'?","ch","",Strong_Indicators,0.6
+23,7,Phonological Awareness,"What sound do you hear at the end of 'fish'?","sh","sh",Minimal,1.0
+23,7,Phonological Awareness,"What sound do you hear at the end of 'fish'?","sh","s",Emerging,0.8
+23,7,Phonological Awareness,"What sound do you hear at the end of 'fish'?","sh","ch",Emerging,0.7
+23,7,Phonological Awareness,"What sound do you hear at the end of 'fish'?","sh","",Strong_Indicators,0.6
+24,7,Phonological Awareness,"How many syllables are in 'butterfly'?","3","3",Minimal,1.0
+24,7,Phonological Awareness,"How many syllables are in 'butterfly'?","3","2",Emerging,0.8
+24,7,Phonological Awareness,"How many syllables are in 'butterfly'?","3","4",Emerging,0.7
+24,7,Phonological Awareness,"How many syllables are in 'butterfly'?","3","",Strong_Indicators,0.6
+25,7,Phonological Awareness,"Which word rhymes with 'tree': 'bee' or 'rock'?","bee","bee",Minimal,1.0
+25,7,Phonological Awareness,"Which word rhymes with 'tree': 'bee' or 'rock'?","bee","rock",Emerging,0.8
+25,7,Phonological Awareness,"Which word rhymes with 'tree': 'bee' or 'rock'?","bee","",Strong_Indicators,0.6
+26,7,Phonological Awareness,"Say these words: 'ship, shop, shut'","ship shop shut","ship shop shut",Minimal,1.0
+26,7,Phonological Awareness,"Say these words: 'ship, shop, shut'","ship shop shut","ship shut shop",Emerging,0.8
+26,7,Phonological Awareness,"Say these words: 'ship, shop, shut'","ship shop shut","",Strong_Indicators,0.6
+27,7,Phonological Awareness,"What word do you get when you put these sounds together: /sh/ /i/ /p/?","ship","ship",Minimal,1.0
+27,7,Phonological Awareness,"What word do you get when you put these sounds together: /sh/ /i/ /p/?","ship","sheep",Emerging,0.8
+27,7,Phonological Awareness,"What word do you get when you put these sounds together: /sh/ /i/ /p/?","ship","",Strong_Indicators,0.6
+28,7,Phonological Awareness,"Which word starts with the same sound as 'ship': 'shop' or 'fish'?","shop","shop",Minimal,1.0
+28,7,Phonological Awareness,"Which word starts with the same sound as 'ship': 'shop' or 'fish'?","shop","fish",Emerging,0.8
+28,7,Phonological Awareness,"Which word starts with the same sound as 'ship': 'shop' or 'fish'?","shop","",Strong_Indicators,0.6
+29,7,Word Recognition,"Read this word: 'ship'","ship","ship",Minimal,1.0
+29,7,Word Recognition,"Read this word: 'ship'","ship","sheep",Emerging,0.8
+29,7,Word Recognition,"Read this word: 'ship'","ship","sip",Emerging,0.7
+29,7,Word Recognition,"Read this word: 'ship'","ship","",Strong_Indicators,0.6
+30,7,Word Recognition,"Is this a real word: 'thrim'?","no","no",Minimal,1.0
+30,7,Word Recognition,"Is this a real word: 'thrim'?","no","yes",Emerging,0.8
+30,7,Word Recognition,"Is this a real word: 'thrim'?","no","",Strong_Indicators,0.6
+31,7,Word Recognition,"Read these words: 'when, what, where'","when what where","when what where",Minimal,1.0
+31,7,Word Recognition,"Read these words: 'when, what, where'","when what where","when where what",Emerging,0.8
+31,7,Word Recognition,"Read these words: 'when, what, where'","when what where","",Strong_Indicators,0.6
+32,7,Word Recognition,"Which word is longer: 'happy' or 'hippopotamus'?","hippopotamus","hippopotamus",Minimal,1.0
+32,7,Word Recognition,"Which word is longer: 'happy' or 'hippopotamus'?","hippopotamus","happy",Emerging,0.8
+32,7,Word Recognition,"Which word is longer: 'happy' or 'hippopotamus'?","hippopotamus","",Strong_Indicators,0.6
+33,7,Word Recognition,"Read this sentence: 'The ship sailed on the sea.'","The ship sailed on the sea.","The ship sailed on the sea.",Minimal,1.0
+33,7,Word Recognition,"Read this sentence: 'The ship sailed on the sea.'","The ship sailed on the sea.","The ship sail on the sea.",Emerging,0.8
+33,7,Word Recognition,"Read this sentence: 'The ship sailed on the sea.'","The ship sailed on the sea.","",Strong_Indicators,0.6
+34,7,Phoneme Manipulation,"What word do you get if you change the first sound in 'ship' to /ch/?","chip","chip",Minimal,1.0
+34,7,Phoneme Manipulation,"What word do you get if you change the first sound in 'ship' to /ch/?","chip","chop",Emerging,0.8
+34,7,Phoneme Manipulation,"What word do you get if you change the first sound in 'ship' to /ch/?","chip","",Strong_Indicators,0.6
+35,7,Phoneme Manipulation,"What word do you get if you take away the first sound in 'stop'?","top","top",Minimal,1.0
+35,7,Phoneme Manipulation,"What word do you get if you take away the first sound in 'stop'?","top","op",Emerging,0.8
+35,7,Phoneme Manipulation,"What word do you get if you take away the first sound in 'stop'?","top","",Strong_Indicators,0.6
+36,7,Phoneme Manipulation,"What word do you get if you add /s/ to the beginning of 'top'?","stop","stop",Minimal,1.0
+36,7,Phoneme Manipulation,"What word do you get if you add /s/ to the beginning of 'top'?","stop","sop",Emerging,0.8
+36,7,Phoneme Manipulation,"What word do you get if you add /s/ to the beginning of 'top'?","stop","",Strong_Indicators,0.6
+37,7,Phoneme Manipulation,"What word do you get if you change the last sound in 'ship' to /t'?","shit","shit",Minimal,1.0
+37,7,Phoneme Manipulation,"What word do you get if you change the last sound in 'ship' to /t'?","shit","ship",Emerging,0.8
+37,7,Phoneme Manipulation,"What word do you get if you change the last sound in 'ship' to /t'?","shit","",Strong_Indicators,0.6
+38,7,Rapid Naming,"Name these colors as fast as you can: purple, orange, brown, black","purple orange brown black","purple orange brown black",Minimal,1.0
+38,7,Rapid Naming,"Name these colors as fast as you can: purple, orange, brown, black","purple orange brown black","purple black orange brown",Emerging,0.8
+38,7,Rapid Naming,"Name these colors as fast as you can: purple, orange, brown, black","purple orange brown black","",Strong_Indicators,0.6
+39,7,Rapid Naming,"Name these letters as fast as you can: m, n, p, q","m n p q","m n p q",Minimal,1.0
+39,7,Rapid Naming,"Name these letters as fast as you can: m, n, p, q","m n p q","m q n p",Emerging,0.8
+39,7,Rapid Naming,"Name these letters as fast as you can: m, n, p, q","m n p q","",Strong_Indicators,0.6
+40,7,Rapid Naming,"Name these numbers as fast as you can: 5, 6, 7, 8","5 6 7 8","5 6 7 8",Minimal,1.0
+40,7,Rapid Naming,"Name these numbers as fast as you can: 5, 6, 7, 8","5 6 7 8","5 8 6 7",Emerging,0.8
+40,7,Rapid Naming,"Name these numbers as fast as you can: 5, 6, 7, 8","5 6 7 8","",Strong_Indicators,0.6 
