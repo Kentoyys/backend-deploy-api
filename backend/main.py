@@ -8,8 +8,6 @@ from routers.letterconfusion import router as letterconfusion_router
 from routers.numberunderstanding import router as numberunderstanding_router
 from routers.arithmetic_test import router as arithmetic_router
 from routers.letter_tracing import router as letter_tracing_router
-
-from routers.dyscalculia_pattern import router as dyscalculia_pattern_router
 from fastapi.staticfiles import StaticFiles
 import os
 import uvicorn
@@ -37,7 +35,7 @@ app.include_router(numberunderstanding_router, prefix="/numberunderstanding_test
 app.include_router(arithmetic_router, prefix="/arithmetic_test", tags=["Dyslexia Arithmetic"])
 app.include_router(letter_tracing_router, prefix="/letter_tracing", tags=["Dysgraphia Letter Tracing"])
 
-app.include_router(dyscalculia_pattern_router, prefix="/dyscalculia_pattern", tags=["Dyscalculia Pattern Recognition"])
+
 @app.get("/")
 def root():
     return {"message": "EarlyEdge API is running!"}
