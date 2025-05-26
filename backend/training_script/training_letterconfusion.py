@@ -3,59 +3,129 @@ import numpy as np
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import LabelEncoder, StandardScaler
 from sklearn.ensemble import RandomForestClassifier
-from sklearn.metrics import accuracy_score, classification_report
+from sklearn.metrics import accuracy_score, classification_report, confusion_matrix
 import joblib
 import os
 
 # 1. Load dataset
-csv_path = r'C:\Users\omlan\OneDrive\Documents\GitHub\early_edge\backend\data\dyslexia_letter_dataset_10k.csv'
+csv_path = os.path.join(os.path.dirname(__file__), '..', 'data', 'letter_training_dataset.csv')
 df = pd.read_csv(csv_path)
 
-# 2. Encode target label
-df['target'] = df['group'].apply(lambda x: 1 if x == 'dyslexic' else 0)
+# Handle missing values
+df['is_correct'] = df['is_correct'].fillna(0).astype(int)
+df['user_response'] = df['user_response'].fillna('')
+df['response_time_ms'] = df['response_time_ms'].fillna(df['response_time_ms'].median())
+df['risk_level'] = df['risk_level'].fillna('Minimal')
+df['options'] = df['options'].fillna('')
 
-# 3. Feature engineering
-le_question_type = LabelEncoder()
-df['question_type_enc'] = le_question_type.fit_transform(df['question_type'])
+# 2. Feature engineering
+# Encode risk levels
+le_risk = LabelEncoder()
+df['risk_level_enc'] = le_risk.fit_transform(df['risk_level'])
 
-all_letters = ['b', 'd', 'p', 'q', 'm', 'n', 'u', 't', 'f', 'c', 'o', 'h', 'k', 'v', 'w', 'x', 'z', 'y', 'a', 'e', 'i', 'l', 'j']
+# Extract letters from options
+def extract_letters(options_str):
+    return options_str.split(',')
 
-def letters_to_multihot(shown_letters_list):
-    return [1 if letter in shown_letters_list else 0 for letter in all_letters]
+# Create one-hot encoding for letters in options
+all_letters = sorted(list(set([letter for options in df['options'] for letter in extract_letters(options)])))
+def letters_to_multihot(options_str):
+    letters = extract_letters(options_str)
+    return [1 if letter in letters else 0 for letter in all_letters]
 
-df['shown_letters_enc'] = df['shown_letters'].apply(lambda x: letters_to_multihot(x.split(',')))
+# Create features
+df['letters_enc'] = df['options'].apply(letters_to_multihot)
 
-# Features and target
-features = df[['correct', 'response_time_ms', 'question_type_enc']]
-features = features.join(pd.DataFrame(df['shown_letters_enc'].tolist(), columns=all_letters))
-target = df['target']
+# Create response time features
+df['response_time_log'] = np.log1p(df['response_time_ms'])
+df['response_time_bins'] = pd.qcut(df['response_time_ms'], q=5, labels=['very_fast', 'fast', 'medium', 'slow', 'very_slow'])
+le_time_bins = LabelEncoder()
+df['response_time_bins_enc'] = le_time_bins.fit_transform(df['response_time_bins'])
 
-# 4. Train/test split
-X_train, X_test, y_train, y_test = train_test_split(features, target, test_size=0.2, random_state=42, stratify=target)
+# Create features for correct/incorrect patterns
+df['is_correct_enc'] = df['is_correct'].astype(int)
+df['has_multiple_selection'] = df['user_response'].str.contains(',').astype(int)
+df['is_empty_response'] = (df['user_response'] == '').astype(int)
 
-# 5. Scale numerical feature (response_time_ms)
+# Create letter features DataFrame
+letter_features = pd.DataFrame(df['letters_enc'].tolist(), columns=[f'letter_{l}' for l in all_letters])
+
+# Combine all features
+feature_columns = [
+    'is_correct_enc',
+    'response_time_log',
+    'response_time_bins_enc',
+    'has_multiple_selection',
+    'is_empty_response'
+]
+
+# Prepare final feature matrix
+X = pd.concat([
+    df[feature_columns],
+    letter_features
+], axis=1)
+
+y = df['risk_level_enc']
+
+# 3. Train/test split with stratification
+X_train, X_test, y_train, y_test = train_test_split(
+    X, y, 
+    test_size=0.2, 
+    random_state=42,
+    stratify=y
+)
+
+# 4. Scale numerical features
 scaler = StandardScaler()
-X_train_scaled = X_train.copy()
-X_test_scaled = X_test.copy()
-X_train_scaled['response_time_ms'] = scaler.fit_transform(X_train[['response_time_ms']])
-X_test_scaled['response_time_ms'] = scaler.transform(X_test[['response_time_ms']])
+numerical_features = ['response_time_log']
+X_train[numerical_features] = scaler.fit_transform(X_train[numerical_features])
+X_test[numerical_features] = scaler.transform(X_test[numerical_features])
 
-# 6. Train sklearn model
-clf = RandomForestClassifier(n_estimators=100, random_state=42)
-clf.fit(X_train_scaled, y_train)
+# 5. Train model with class weights
+class_weights = dict(zip(
+    np.unique(y_train),
+    len(y_train) / (len(np.unique(y_train)) * np.bincount(y_train))
+))
 
-# 7. Evaluation
-y_pred = clf.predict(X_test_scaled)
-acc = accuracy_score(y_test, y_pred)
-print(f"\nTest Accuracy: {acc*100:.2f}%")
-print(classification_report(y_test, y_pred))
+clf = RandomForestClassifier(
+    n_estimators=200,
+    max_depth=10,
+    min_samples_split=5,
+    min_samples_leaf=2,
+    class_weight=class_weights,
+    random_state=42
+)
 
-# 8. Save model, encoder, and scaler
-base_dir = os.path.dirname(__file__)
-models_dir = os.path.abspath(os.path.join(base_dir, '..', 'models'))
+clf.fit(X_train, y_train)
+
+# 6. Evaluation
+y_pred = clf.predict(X_test)
+y_pred_proba = clf.predict_proba(X_test)
+
+print("\nModel Performance:")
+print("-----------------")
+print(f"Accuracy: {accuracy_score(y_test, y_pred):.3f}")
+print("\nClassification Report:")
+print(classification_report(y_test, y_pred, target_names=le_risk.classes_))
+print("\nConfusion Matrix:")
+print(confusion_matrix(y_test, y_pred))
+
+# 7. Feature importance
+feature_importance = pd.DataFrame({
+    'feature': X.columns,
+    'importance': clf.feature_importances_
+}).sort_values('importance', ascending=False)
+
+print("\nTop 10 Most Important Features:")
+print(feature_importance.head(10))
+
+# 8. Save model and encoders
+models_dir = os.path.join(os.path.dirname(__file__), '..', 'models')
 os.makedirs(models_dir, exist_ok=True)
 
-joblib.dump(clf, os.path.join(models_dir, 'dyslexia_letter_confusion_model.joblib'))
-joblib.dump(le_question_type, os.path.join(models_dir, 'le_question_type.joblib'))
-joblib.dump(scaler, os.path.join(models_dir, 'scaler.joblib'))
-print("✅ Saved model, encoder, and scaler to ../models/")
+joblib.dump(clf, os.path.join(models_dir, 'letter_confusion_model.joblib'))
+joblib.dump(le_risk, os.path.join(models_dir, 'risk_level_encoder.joblib'))
+joblib.dump(le_time_bins, os.path.join(models_dir, 'time_bins_encoder.joblib'))
+joblib.dump(scaler, os.path.join(models_dir, 'feature_scaler.joblib'))
+
+print("\n✅ Model and encoders saved to ../models/")

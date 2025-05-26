@@ -1,0 +1,168 @@
+user_id,question_id,question_text,options,correct_answer,user_response,is_correct,response_time_ms,risk_level
+1,1,"Tap all the letters that are the same as b.","b,d,p,q",b,b,1,1200,Minimal
+2,1,"Tap all the letters that are the same as b.","b,d,p,q",b,d,0,2100,Emerging Indicators
+3,1,"Tap all the letters that are the same as b.","b,d,p,q",b,p,0,1800,Emerging Indicators
+4,1,"Tap all the letters that are the same as b.","b,d,p,q",b,q,0,2500,Emerging Indicators
+5,1,"Tap all the letters that are the same as b.","b,d,p,q",b,"",0,3000,Strong Indicators
+6,1,"Tap all the letters that are the same as b.","b,d,p,q",b,"d,p",0,2200,Emerging Indicators
+7,2,"Tap all the letters that are the same as d.","b,d,p,q",d,d,1,1100,Minimal
+8,2,"Tap all the letters that are the same as d.","b,d,p,q",d,b,0,2000,Emerging Indicators
+9,2,"Tap all the letters that are the same as d.","b,d,p,q",d,p,0,1700,Emerging Indicators
+10,2,"Tap all the letters that are the same as d.","b,d,p,q",d,q,0,2600,Emerging Indicators
+11,2,"Tap all the letters that are the same as d.","b,d,p,q",d,"",0,3200,Strong Indicators
+12,2,"Tap all the letters that are the same as d.","b,d,p,q",d,"b,p",0,2100,Emerging Indicators
+13,3,"Tap all the letters that are the same as p.","b,d,p,q",p,p,1,1300,Minimal
+14,3,"Tap all the letters that are the same as p.","b,d,p,q",p,b,0,1900,Emerging Indicators
+15,3,"Tap all the letters that are the same as p.","b,d,p,q",p,d,0,1700,Emerging Indicators
+16,3,"Tap all the letters that are the same as p.","b,d,p,q",p,q,0,2400,Emerging Indicators
+17,3,"Tap all the letters that are the same as p.","b,d,p,q",p,"",0,3100,Strong Indicators
+18,3,"Tap all the letters that are the same as p.","b,d,p,q",p,"b,q",0,2000,Emerging Indicators
+19,4,"Tap all the letters that are the same as q.","b,d,p,q",q,q,1,1200,Minimal
+20,4,"Tap all the letters that are the same as q.","b,d,p,q",q,b,0,2100,Emerging Indicators
+21,4,"Tap all the letters that are the same as q.","b,d,p,q",q,d,0,2000,Emerging Indicators
+22,4,"Tap all the letters that are the same as q.","b,d,p,q",q,p,0,2300,Emerging Indicators
+23,4,"Tap all the letters that are the same as q.","b,d,p,q",q,"",0,3200,Strong Indicators
+24,4,"Tap all the letters that are the same as q.","b,d,p,q",q,"b,p",0,2200,Emerging Indicators
+25,5,"Tap all the letters that are the same as m.","m,n,h,u",m,m,1,1100,Minimal
+26,5,"Tap all the letters that are the same as m.","m,n,h,u",m,n,0,2000,Emerging Indicators
+27,5,"Tap all the letters that are the same as m.","m,n,h,u",m,h,0,1800,Emerging Indicators
+28,5,"Tap all the letters that are the same as m.","m,n,h,u",m,u,0,2100,Emerging Indicators
+29,5,"Tap all the letters that are the same as m.","m,n,h,u",m,"",0,3000,Strong Indicators
+30,5,"Tap all the letters that are the same as m.","m,n,h,u",m,"n,h",0,2200,Emerging Indicators
+31,6,"Tap all the letters that are the same as n.","m,n,h,u",n,n,1,1200,Minimal
+32,6,"Tap all the letters that are the same as n.","m,n,h,u",n,m,0,2100,Emerging Indicators
+33,6,"Tap all the letters that are the same as n.","m,n,h,u",n,h,0,1800,Emerging Indicators
+34,6,"Tap all the letters that are the same as n.","m,n,h,u",n,u,0,2500,Emerging Indicators
+35,6,"Tap all the letters that are the same as n.","m,n,h,u",n,"",0,3000,Strong Indicators
+36,6,"Tap all the letters that are the same as n.","m,n,h,u",n,"m,h",0,2200,Emerging Indicators
+37,7,"Tap all the letters that are the same as u.","m,n,h,u",u,u,1,1100,Minimal
+38,7,"Tap all the letters that are the same as u.","m,n,h,u",u,m,0,2000,Emerging Indicators
+39,7,"Tap all the letters that are the same as u.","m,n,h,u",u,n,0,1800,Emerging Indicators
+40,7,"Tap all the letters that are the same as u.","m,n,h,u",u,h,0,2100,Emerging Indicators
+41,7,"Tap all the letters that are the same as u.","m,n,h,u",u,"",0,3000,Strong Indicators
+42,7,"Tap all the letters that are the same as u.","m,n,h,u",u,"n,h",0,2200,Emerging Indicators
+43,8,"Tap all the letters that are the same as h.","m,n,h,u",h,h,1,1200,Minimal
+44,8,"Tap all the letters that are the same as h.","m,n,h,u",h,m,0,2100,Emerging Indicators
+45,8,"Tap all the letters that are the same as h.","m,n,h,u",h,n,0,1800,Emerging Indicators
+46,8,"Tap all the letters that are the same as h.","m,n,h,u",h,u,0,2500,Emerging Indicators
+47,8,"Tap all the letters that are the same as h.","m,n,h,u",h,"",0,3000,Strong Indicators
+48,8,"Tap all the letters that are the same as h.","m,n,h,u",h,"m,n",0,2200,Emerging Indicators
+49,9,"Tap all the letters that are the same as a.","a,o,e,u",a,a,1,1200,Minimal
+50,9,"Tap all the letters that are the same as a.","a,o,e,u",a,o,0,2100,Emerging Indicators
+51,9,"Tap all the letters that are the same as a.","a,o,e,u",a,e,0,2000,Emerging Indicators
+52,9,"Tap all the letters that are the same as a.","a,o,e,u",a,u,0,2300,Emerging Indicators
+53,9,"Tap all the letters that are the same as a.","a,o,e,u",a,"",0,3200,Strong Indicators
+54,9,"Tap all the letters that are the same as a.","a,o,e,u",a,"o,e",0,2200,Emerging Indicators
+55,9,"Tap all the letters that are the same as a.","a,o,e,u",a,"a,a",0,2500,Emerging Indicators
+56,10,"Tap all the letters that are the same as o.","a,o,e,u",o,o,1,1100,Minimal
+57,10,"Tap all the letters that are the same as o.","a,o,e,u",o,a,0,2000,Emerging Indicators
+58,10,"Tap all the letters that are the same as o.","a,o,e,u",o,e,0,1800,Emerging Indicators
+59,10,"Tap all the letters that are the same as o.","a,o,e,u",o,u,0,2100,Emerging Indicators
+60,10,"Tap all the letters that are the same as o.","a,o,e,u",o,"",0,3000,Strong Indicators
+61,10,"Tap all the letters that are the same as o.","a,o,e,u",o,"a,e",0,2200,Emerging Indicators
+62,10,"Tap all the letters that are the same as o.","a,o,e,u",o,"o,o",0,2500,Emerging Indicators
+63,11,"Tap all the letters that are the same as e.","a,o,e,u",e,e,1,1200,Minimal
+64,11,"Tap all the letters that are the same as e.","a,o,e,u",e,a,0,2100,Emerging Indicators
+65,11,"Tap all the letters that are the same as e.","a,o,e,u",e,o,0,1800,Emerging Indicators
+66,11,"Tap all the letters that are the same as e.","a,o,e,u",e,u,0,2500,Emerging Indicators
+67,11,"Tap all the letters that are the same as e.","a,o,e,u",e,"",0,3000,Strong Indicators
+68,11,"Tap all the letters that are the same as e.","a,o,e,u",e,"a,o",0,2200,Emerging Indicators
+69,11,"Tap all the letters that are the same as e.","a,o,e,u",e,"e,e",0,2500,Emerging Indicators
+70,12,"Tap all the letters that are the same as c.","c,e,o,a",c,c,1,1100,Minimal
+71,12,"Tap all the letters that are the same as c.","c,e,o,a",c,e,0,2000,Emerging Indicators
+72,12,"Tap all the letters that are the same as c.","c,e,o,a",c,o,0,1800,Emerging Indicators
+73,12,"Tap all the letters that are the same as c.","c,e,o,a",c,a,0,2100,Emerging Indicators
+74,12,"Tap all the letters that are the same as c.","c,e,o,a",c,"",0,3000,Strong Indicators
+75,12,"Tap all the letters that are the same as c.","c,e,o,a",c,"e,o",0,2200,Emerging Indicators
+76,12,"Tap all the letters that are the same as c.","c,e,o,a",c,"c,a",0,2500,Emerging Indicators
+77,13,"Tap all the letters that are the same as g.","g,q,p,b",g,g,1,1200,Minimal
+78,13,"Tap all the letters that are the same as g.","g,q,p,b",g,q,0,2100,Emerging Indicators
+79,13,"Tap all the letters that are the same as g.","g,q,p,b",g,p,0,1800,Emerging Indicators
+80,13,"Tap all the letters that are the same as g.","g,q,p,b",g,b,0,2500,Emerging Indicators
+81,13,"Tap all the letters that are the same as g.","g,q,p,b",g,"",0,3000,Strong Indicators
+82,13,"Tap all the letters that are the same as g.","g,q,p,b",g,"q,p",0,2200,Emerging Indicators
+83,13,"Tap all the letters that are the same as g.","g,q,p,b",g,"g,g",0,2500,Emerging Indicators
+84,14,"Tap all the letters that are the same as t.","t,f,l,i",t,t,1,1100,Minimal
+85,14,"Tap all the letters that are the same as t.","t,f,l,i",t,f,0,2000,Emerging Indicators
+86,14,"Tap all the letters that are the same as t.","t,f,l,i",t,l,0,1800,Emerging Indicators
+87,14,"Tap all the letters that are the same as t.","t,f,l,i",t,i,0,2100,Emerging Indicators
+88,14,"Tap all the letters that are the same as t.","t,f,l,i",t,"",0,3000,Strong Indicators
+89,14,"Tap all the letters that are the same as t.","t,f,l,i",t,"f,l",0,2200,Emerging Indicators
+90,14,"Tap all the letters that are the same as t.","t,f,l,i",t,"t,t",0,2500,Emerging Indicators
+91,15,"Tap all the letters that are the same as f.","t,f,l,i",f,f,1,1200,Minimal
+92,15,"Tap all the letters that are the same as f.","t,f,l,i",f,t,0,2100,Emerging Indicators
+93,15,"Tap all the letters that are the same as f.","t,f,l,i",f,l,0,1800,Emerging Indicators
+94,15,"Tap all the letters that are the same as f.","t,f,l,i",f,i,0,2500,Emerging Indicators
+95,15,"Tap all the letters that are the same as f.","t,f,l,i",f,"",0,3000,Strong Indicators
+96,15,"Tap all the letters that are the same as f.","t,f,l,i",f,"t,l",0,2200,Emerging Indicators
+97,15,"Tap all the letters that are the same as f.","t,f,l,i",f,"f,f",0,2500,Emerging Indicators
+98,16,"Tap all the letters that are the same as l.","t,f,l,i",l,l,1,1100,Minimal
+99,16,"Tap all the letters that are the same as l.","t,f,l,i",l,t,0,2000,Emerging Indicators
+100,16,"Tap all the letters that are the same as l.","t,f,l,i",l,f,0,1800,Emerging Indicators
+101,16,"Tap all the letters that are the same as l.","t,f,l,i",l,i,0,2100,Emerging Indicators
+102,16,"Tap all the letters that are the same as l.","t,f,l,i",l,"",0,3000,Strong Indicators
+103,16,"Tap all the letters that are the same as l.","t,f,l,i",l,"t,f",0,2200,Emerging Indicators
+104,16,"Tap all the letters that are the same as l.","t,f,l,i",l,"l,l",0,2500,Emerging Indicators
+105,17,"Tap all the letters that are the same as i.","t,f,l,i",i,i,1,1200,Minimal
+106,17,"Tap all the letters that are the same as i.","t,f,l,i",i,t,0,2100,Emerging Indicators
+107,17,"Tap all the letters that are the same as i.","t,f,l,i",i,f,0,1800,Emerging Indicators
+108,17,"Tap all the letters that are the same as i.","t,f,l,i",i,l,0,2500,Emerging Indicators
+109,17,"Tap all the letters that are the same as i.","t,f,l,i",i,"",0,3000,Strong Indicators
+110,17,"Tap all the letters that are the same as i.","t,f,l,i",i,"t,l",0,2200,Emerging Indicators
+111,17,"Tap all the letters that are the same as i.","t,f,l,i",i,"i,i",0,2500,Emerging Indicators
+112,18,"Tap all the letters that are the same as s.","s,z,x,c",s,s,1,1100,Minimal
+113,18,"Tap all the letters that are the same as s.","s,z,x,c",s,z,0,2000,Emerging Indicators
+114,18,"Tap all the letters that are the same as s.","s,z,x,c",s,x,0,1800,Emerging Indicators
+115,18,"Tap all the letters that are the same as s.","s,z,x,c",s,c,0,2100,Emerging Indicators
+116,18,"Tap all the letters that are the same as s.","s,z,x,c",s,"",0,3000,Strong Indicators
+117,18,"Tap all the letters that are the same as s.","s,z,x,c",s,"z,x",0,2200,Emerging Indicators
+118,18,"Tap all the letters that are the same as s.","s,z,x,c",s,"s,s",0,2500,Emerging Indicators
+119,19,"Tap all the letters that are the same as z.","s,z,x,c",z,z,1,1200,Minimal
+120,19,"Tap all the letters that are the same as z.","s,z,x,c",z,s,0,2100,Emerging Indicators
+121,19,"Tap all the letters that are the same as z.","s,z,x,c",z,x,0,1800,Emerging Indicators
+122,19,"Tap all the letters that are the same as z.","s,z,x,c",z,c,0,2500,Emerging Indicators
+123,19,"Tap all the letters that are the same as z.","s,z,x,c",z,"",0,3000,Strong Indicators
+124,19,"Tap all the letters that are the same as z.","s,z,x,c",z,"s,x",0,2200,Emerging Indicators
+125,19,"Tap all the letters that are the same as z.","s,z,x,c",z,"z,z",0,2500,Emerging Indicators
+126,20,"Tap all the letters that are the same as x.","s,z,x,c",x,x,1,1100,Minimal
+127,20,"Tap all the letters that are the same as x.","s,z,x,c",x,s,0,2000,Emerging Indicators
+128,20,"Tap all the letters that are the same as x.","s,z,x,c",x,z,0,1800,Emerging Indicators
+129,20,"Tap all the letters that are the same as x.","s,z,x,c",x,c,0,2100,Emerging Indicators
+130,20,"Tap all the letters that are the same as x.","s,z,x,c",x,"",0,3000,Strong Indicators
+131,20,"Tap all the letters that are the same as x.","s,z,x,c",x,"s,z",0,2200,Emerging Indicators
+132,20,"Tap all the letters that are the same as x.","s,z,x,c",x,"x,x",0,2500,Emerging Indicators
+133,21,"Tap all the letters that are the same as r.","r,n,m,h",r,r,1,1200,Minimal
+134,21,"Tap all the letters that are the same as r.","r,n,m,h",r,n,0,2100,Emerging Indicators
+135,21,"Tap all the letters that are the same as r.","r,n,m,h",r,m,0,1800,Emerging Indicators
+136,21,"Tap all the letters that are the same as r.","r,n,m,h",r,h,0,2500,Emerging Indicators
+137,21,"Tap all the letters that are the same as r.","r,n,m,h",r,"",0,3000,Strong Indicators
+138,21,"Tap all the letters that are the same as r.","r,n,m,h",r,"n,m",0,2200,Emerging Indicators
+139,21,"Tap all the letters that are the same as r.","r,n,m,h",r,"r,r",0,2500,Emerging Indicators
+140,22,"Tap all the letters that are the same as w.","w,v,u,m",w,w,1,1100,Minimal
+141,22,"Tap all the letters that are the same as w.","w,v,u,m",w,v,0,2000,Emerging Indicators
+142,22,"Tap all the letters that are the same as w.","w,v,u,m",w,u,0,1800,Emerging Indicators
+143,22,"Tap all the letters that are the same as w.","w,v,u,m",w,m,0,2100,Emerging Indicators
+144,22,"Tap all the letters that are the same as w.","w,v,u,m",w,"",0,3000,Strong Indicators
+145,22,"Tap all the letters that are the same as w.","w,v,u,m",w,"v,u",0,2200,Emerging Indicators
+146,22,"Tap all the letters that are the same as w.","w,v,u,m",w,"w,w",0,2500,Emerging Indicators
+147,23,"Tap all the letters that are the same as v.","v,w,u,y",v,v,1,1200,Minimal
+148,23,"Tap all the letters that are the same as v.","v,w,u,y",v,w,0,2100,Emerging Indicators
+149,23,"Tap all the letters that are the same as v.","v,w,u,y",v,u,0,1800,Emerging Indicators
+150,23,"Tap all the letters that are the same as v.","v,w,u,y",v,y,0,2500,Emerging Indicators
+151,23,"Tap all the letters that are the same as v.","v,w,u,y",v,"",0,3000,Strong Indicators
+152,23,"Tap all the letters that are the same as v.","v,w,u,y",v,"w,u",0,2200,Emerging Indicators
+153,23,"Tap all the letters that are the same as v.","v,w,u,y",v,"v,v",0,2500,Emerging Indicators
+154,24,"Tap all the letters that are the same as y.","y,v,u,j",y,y,1,1100,Minimal
+155,24,"Tap all the letters that are the same as y.","y,v,u,j",y,v,0,2000,Emerging Indicators
+156,24,"Tap all the letters that are the same as y.","y,v,u,j",y,u,0,1800,Emerging Indicators
+157,24,"Tap all the letters that are the same as y.","y,v,u,j",y,j,0,2100,Emerging Indicators
+158,24,"Tap all the letters that are the same as y.","y,v,u,j",y,"",0,3000,Strong Indicators
+159,24,"Tap all the letters that are the same as y.","y,v,u,j",y,"v,u",0,2200,Emerging Indicators
+160,24,"Tap all the letters that are the same as y.","y,v,u,j",y,"y,y",0,2500,Emerging Indicators
+161,25,"Tap all the letters that are the same as k.","k,x,h,r",k,k,1,1200,Minimal
+162,25,"Tap all the letters that are the same as k.","k,x,h,r",k,x,0,2100,Emerging Indicators
+163,25,"Tap all the letters that are the same as k.","k,x,h,r",k,h,0,1800,Emerging Indicators
+164,25,"Tap all the letters that are the same as k.","k,x,h,r",k,r,0,2500,Emerging Indicators
+165,25,"Tap all the letters that are the same as k.","k,x,h,r",k,"",0,3000,Strong Indicators
+166,25,"Tap all the letters that are the same as k.","k,x,h,r",k,"x,h",0,2200,Emerging Indicators
+167,25,"Tap all the letters that are the same as k.","k,x,h,r",k,"k,k",0,2500,Emerging Indicators
