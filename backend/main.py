@@ -1,6 +1,7 @@
 from fastapi import FastAPI
-import uvicorn
+from fastapi.middleware.gzip import GZipMiddleware
 from fastapi.middleware.cors import CORSMiddleware
+import uvicorn
 from routers.spelling_test import router as spelling_router
 from routers.handwritten_test import router as handwritten_router
 from routers.phonospeech_test import router as phonospeech_router
@@ -10,18 +11,19 @@ from routers.arithmetic_test import router as arithmetic_router
 from routers.letter_tracing import router as letter_tracing_router
 from fastapi.staticfiles import StaticFiles
 import os
-import uvicorn
 
 app = FastAPI()
+
+# Add GZip compression
+app.add_middleware(GZipMiddleware, minimum_size=1000)
 
 app.mount("/audio/correct", StaticFiles(directory="audio/correct"), name="correct_audio")
 app.mount("/audio/incorrect", StaticFiles(directory="audio/incorrect"), name="incorrect_audio")
 
-
 # Add CORS middleware
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["https://early-edge.vercel.app"],  # Update this for production
+    allow_origins=["*"],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
@@ -35,11 +37,10 @@ app.include_router(numberunderstanding_router, prefix="/numberunderstanding_test
 app.include_router(arithmetic_router, prefix="/arithmetic_test", tags=["Dyslexia Arithmetic"])
 app.include_router(letter_tracing_router, prefix="/letter_tracing", tags=["Dysgraphia Letter Tracing"])
 
-
 @app.get("/")
 def root():
     return {"message": "EarlyEdge API is running!"}
 
 if __name__ == "__main__":
     port = int(os.environ.get("PORT", 8000))
-    uvicorn.run("main:app", host="0.0.0.0", port=port, reload=False)
+    uvicorn.run("main:app", host="0.0.0.0", port=port, reload=True)

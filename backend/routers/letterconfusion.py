@@ -6,6 +6,7 @@ import joblib
 import os
 import pandas as pd
 from collections import Counter
+from utils.cache import load_csv_data
 
 router = APIRouter()
 
@@ -30,9 +31,9 @@ class AnswerItem(BaseModel):
 @router.get("/questions/")
 async def get_questions():
     try:
-        # Load questions from CSV
+        # Use cached data loading
         csv_path = os.path.join(base_dir, "data", "letterconfusion_frontend.csv")
-        df = pd.read_csv(csv_path)
+        df = load_csv_data(csv_path)
         
         # Convert DataFrame to list of dictionaries
         questions = df.to_dict('records')

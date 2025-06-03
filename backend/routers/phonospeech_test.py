@@ -5,6 +5,7 @@ import os
 import pandas as pd
 import numpy as np
 import re
+from utils.cache import load_csv_data
 
 def extract_phoneme_features(text):
     text = str(text)
@@ -26,6 +27,11 @@ router = APIRouter(
     tags=["phonospeech"]
 )
 
+base_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+
+# Load and cache the dataset
+dataset = load_csv_data(os.path.join(base_dir, "data", "dyslexia_training_dataset.csv"))
+
 class PhonoSpeechRequest(BaseModel):
     question: str
     child_response: str
@@ -36,14 +42,14 @@ class PhonoSpeechResponse(BaseModel):
 
 @router.get("/questions")
 def get_questions():
-    csv_path = os.path.join(os.path.dirname(__file__), '..', 'data', 'dyslexia_training_dataset.csv')
-    if not os.path.exists(csv_path):
-        raise HTTPException(status_code=404, detail="Questions file not found.")
-    df = pd.read_csv(csv_path)
-    if 'Question' not in df.columns:
-        raise HTTPException(status_code=500, detail="'Question' column not found in dataset.")
-    questions = df[['Question']].drop_duplicates().to_dict(orient='records')
-    return {"questions": questions}
+    try:
+        if 'Question' not in dataset.columns:
+            raise HTTPException(status_code=500, detail="'Question' column not found in dataset.")
+        
+        questions = dataset[['Question']].drop_duplicates().to_dict(orient='records')
+        return {"questions": questions}
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=f"Error loading questions: {str(e)}")
 
 @router.post("/predict", response_model=PhonoSpeechResponse)
 def predict_phonospeech(data: PhonoSpeechRequest):
@@ -67,3 +73,15 @@ def predict_phonospeech(data: PhonoSpeechRequest):
         risk_level=risk_map[pred],
         confidence_score=confidence
     )
+
+@router.post("/submit")
+async def submit_answers(answers: list):
+    try:
+        # Process answers and return results
+        return {
+            "risk_level": "calculated_risk_level",
+            "confidence": "calculated_confidence",
+            "individual_results": "individual_results"
+        }
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=f"Error processing answers: {str(e)}")
