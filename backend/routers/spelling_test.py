@@ -9,7 +9,7 @@ import librosa
 import os
 from difflib import SequenceMatcher
 from typing import List, Dict
-from utils.cache import load_csv_data, load_model
+
 
 router = APIRouter()
 
