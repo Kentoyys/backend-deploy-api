@@ -5,7 +5,6 @@ import os
 import pandas as pd
 import numpy as np
 import re
-from utils.cache import load_csv_data
 
 def extract_phoneme_features(text):
     text = str(text)
@@ -30,7 +29,7 @@ router = APIRouter(
 base_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 # Load and cache the dataset
-dataset = load_csv_data(os.path.join(base_dir, "data", "dyslexia_training_dataset.csv"))
+dataset = pd.read_csv(os.path.join(base_dir, "data", "dyslexia_training_dataset.csv"))
 
 class PhonoSpeechRequest(BaseModel):
     question: str

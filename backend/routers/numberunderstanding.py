@@ -1,18 +1,16 @@
 from fastapi import APIRouter, HTTPException
 import os
-from utils.cache import load_csv_data, load_model
 import pandas as pd
+import joblib
 import numpy as np
+from pydantic import BaseModel
 
 router = APIRouter()
 base_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
-# Load and cache the dataset
-dataset = load_csv_data(os.path.join(base_dir, "data", "number_understanding_dataset_10k.csv"))
-
-# Load and cache the model
-model = load_model(os.path.join(base_dir, "models", "dyscalculia_numberunderstanding.joblib"))
-scaler = load_model(os.path.join(base_dir, "models", "number_understanding_scaler.pkl"))
+dataset = pd.read_csv(os.path.join(base_dir, "data", "number_understanding_dataset_10k.csv"))
+model = joblib.load(os.path.join(base_dir, "models", "dyscalculia_numberunderstanding.joblib"))
+scaler = joblib.load(os.path.join(base_dir, "models", "number_understanding_scaler.pkl"))
 
 class PredictionInput(BaseModel):
     left_number: float
@@ -37,21 +35,17 @@ async def get_questions():
 @router.post("/predict")
 async def predict(data: dict):
     try:
-        # Prepare features
-        features = np.array([[
-            data["left_number"],
-            data["right_number"],
-            data["response_time_sec"],
-            data["user_correct"]
-        ]])
-        
-        # Scale features
+        features = np.array([
+            [
+                data["left_number"],
+                data["right_number"],
+                data["response_time_sec"],
+                data["user_correct"]
+            ]
+        ])
         features_scaled = scaler.transform(features)
-        
-        # Make prediction
         prediction = model.predict(features_scaled)[0]
         probability = model.predict_proba(features_scaled)[0]
-        
         return {
             "result": "At Risk" if prediction == 1 else "Not At Risk",
             "confidence": float(max(probability)),
