@@ -13,13 +13,13 @@ from typing import List, Dict
 
 router = APIRouter()
 
-# Load and cache datasets
+# Load datasets
 base_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-frontend_df = load_csv_data(os.path.join(base_dir, "data", "spellingfrontend_test.csv"))
-ground_truth_df = load_csv_data(os.path.join(base_dir, "data", "spelling_audio_dataset.csv"))
+frontend_df = pd.read_csv(os.path.join(base_dir, "data", "spellingfrontend_test.csv"))
+ground_truth_df = pd.read_csv(os.path.join(base_dir, "data", "spelling_audio_dataset.csv"))
 
-# Load and cache model
-model_bundle = load_model(os.path.join(base_dir, "models", "dyslexia_spelling_audio_model.joblib"))
+# Load model
+model_bundle = joblib.load(os.path.join(base_dir, "models", "dyslexia_spelling_audio_model.joblib"))
 model = model_bundle['model']
 scaler = model_bundle['scaler']
 
