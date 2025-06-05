@@ -70,7 +70,7 @@ async def get_summary(attempts: List[Attempt]):
 
         # Calculate summary statistics
         total_attempts = len(attempts)
-        correct_attempts = sum(1 for p in predictions if p == 0)
+        correct_attempts = sum(1 for a in attempts if a.user_choice == 0)  # Count actual correct answers
         accuracy = correct_attempts / total_attempts
         avg_response_time = sum(a.response_time for a in attempts) / total_attempts
 
@@ -85,11 +85,15 @@ async def get_summary(attempts: List[Attempt]):
         individual_results = [
             {
                 "question": f"{a.op1} {a.operation} {a.op2}",
-                "is_correct": bool(p == 0),  # Convert numpy.bool_ to Python bool
+                "is_correct": bool(a.user_choice == 0),  # Use actual user choice
                 "response_time": float(a.response_time),
-                "confidence": get_confidence_indicator(float(max(prob)))
+                "confidence": (
+                    "minimal" if a.user_choice == 0 and a.response_time < 3
+                    else "emerging" if a.user_choice == 0
+                    else get_confidence_indicator(float(max(prob)))
+                )
             }
-            for a, p, prob in zip(attempts, predictions, probabilities)
+            for a, prob in zip(attempts, probabilities)
         ]
 
         return {
